@@ -1,6 +1,6 @@
 DE,SL+ home page
 DS,inserter
-SP,C:\Users\Ben\ttx\svp\SVP300.tti
+SP,C:\Users\Ben\ttx\svp\pages\SVP300.tti
 PN,30000
 SC,0000
 PS,8000
@@ -17,7 +17,6 @@ OL,8,A]GMGeneral schedule `````````` p301   \
 OL,11,B]DMSpecific day schedules ```` p305   \
 OL,14,C]AMListen to SoundLink+! ````` p310   \
 OL,17,E]FMAbout SoundLink+ `````````` p350   \
-OL,20, XA XSecret page????  `````````` p111   
 OL,23,D]CSoundLink+:Reaching out to you...   \
 OL,24,ABS Guide BAbout SL+CDaySchedsFIndex    
-FL,101,111,300,8ff,8ff,8ff
+FL,101,350,305,8ff,8ff,8ff
