@@ -4,7 +4,7 @@ SP,C:\Users\Ben\ttx\svp\pages\SVP101.tti
 PN,10101
 SC,0001
 PS,8000
-CT,25,T
+CT,8,T
 RE,0
 OL,0,        SATVW+ %%# %%a%d %%b UTCC%H%M:%S
 OL,1,]T+} ~//  "ot?! T ||| | | | ||t |||    
@@ -24,8 +24,8 @@ OL,19,  1400-2000 EST    ||    2000-2300 EST
 OL,20, B1800-0000 UTC    ||    0000-0300 UTC  
 OL,21, EBROADCAST STN.   ||    BROADCAST STN  
 OL,23,D]CSatellaview+: BS-X, without the BS  \
-OL,24,AHome     BSL+ GuideCAbout ST FIndex    
-FL,100,300,111,8ff,8ff,8ff
+OL,24,AHome                                   
+FL,100,8ff,8ff,8ff,8ff,8ff
 PN,10102
 SC,0002
 PS,8000
@@ -51,11 +51,11 @@ OL,19, B1200-0300 UTC
 OL,20, ETEMPLE                                
 OL,23,D]CSatellaview+: BS-X, without the BS  \
 OL,24,  AHome                                 
-FL,100,300,111,8ff,8ff,8ff
+FL,100,8ff,8ff,8ff,8ff,8ff
 PN,10103
 SC,0003
 PS,8000
-CT,18,T
+CT,8,T
 RE,0
 OL,0,        SATVW+ %%# %%a%d %%b UTCC%H%M:%S
 OL,1,]T+} ~//  "ot?! T ||| | | | ||t |||    
@@ -77,4 +77,4 @@ OL,19, B1200-0300 UTC
 OL,20, EEVENT PLAZA                           
 OL,23,D]CSatellaview+: BS-X, without the BS  \
 OL,24,  AHome                                 
-FL,100,300,111,8ff,8ff,8ff
+FL,100,8ff,8ff,8ff,8ff,8ff
