@@ -1,0 +1,29 @@
+DE,STGIGA screen (rolling)
+DS,inserter
+SP,C:\Users\Ben\ttx\svp\pages\SVP152-01.tti
+PN,15201
+SC,0000
+PS,8000
+CT,8,T
+RE,0
+OL,0,        SATVW+ %%# %%a%d %%b TXTC%H%M:%S
+OL,3,W     T]                        \       
+OL,4,W  -,$T]                        \       
+OL,5,W  ws5T]        \T##+///]       \       
+OL,6,W  tt4T]     Z\R- )(}4`YT+]T^ \        
+OL,7,W  tt4T]      \         T ]T  \         
+OL,8,W     T]      \ Wtppp0  T ]T \          
+OL,9,W  *  T]    S \9Wk7(yg{c?||||         
+OL,10,W  wg5T]      \W ~}({-{$u         
+OL,11,W  4<4T]      \R  $W"+/////////         
+OL,12,W  c!!T]W `ppp\  `ppp`0`ppp ppp0        
+OL,13,W  rp4T]Wx/###!\hj5~'## ##m0       
+OL,14,W  pp1  (||0,= z7  pju4  p+u  ot      
+OL,15,W  ),!   +o%>!`!  "ju  +tou  +}0    
+OL,16,W  #;!x|||~'*!$*}||| / o}|~"4  "}0   
+OL,17,W  ,.$                        "!   #!   
+OL,18,W  ,.$                                  
+OL,19,   The data that will be transmitted    
+OL,20,  should only be used for its intended  
+OL,21,               purpose.                 
+OL,23,D]G(C)2023-25 Satellaview+ Team et al. \

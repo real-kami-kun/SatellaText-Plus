@@ -1,16 +1,22 @@
-DE,Description goes here
+DE,SL+ home page
 DS,inserter
 SP,C:\Users\Ben\ttx\svp\pages\SVP200.tti
 PN,20000
 SC,0000
 PS,8000
-CT,8,T
+CT,20,T
 RE,0
-OL,0,        SATVW+ %%# %%a%d %%b UTCC%H%M:%S
-OL,1,Sorry, but this page is under           
-OL,2,construction. Apparently VBIT doesHNOTI 
-OL,3,like it when magazines are missing.     
-OL,4,So I made this p200 to fill the hole for
-OL,5,now.                                    
-OL,7,Diolch yn fawr!                         
-OL,8,- Kami-kun =)                           
+OL,0,P100    SATVW+ %%# %%a%d %%b UTCC%H%M:%S
+OL,1,T]R~//           jV   0    4p S  |    \
+OL,2,T]R+mt`,dh hh8d`,nV   4h8d w,!Sh||4  \
+OL,3,T]R||?*p:*pzj jjp:V|| 5j j 5)0S      \
+OL,4,G SoundLink+ is our very own internet   
+OL,5,G radio channel, broadcasting thru the  
+OL,6,G day and night Thu-Sun!M=)L            
+OL,8,A]GMGeneral schedule `````````` p201   \
+OL,11,B]DMSpecific day schedules ```` p205   \
+OL,14,C]AMListen to SoundLink+! ````` p210   \
+OL,17,E]FMAbout SoundLink+ `````````` p250   \
+OL,23,D]CSoundLink+:Reaching out to you...   \
+OL,24,ABS Guide BAbout SL+CDaySchedsFIndex    
+FL,101,350,305,8ff,8ff,8ff
