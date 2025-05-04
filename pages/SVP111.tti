@@ -4,7 +4,7 @@ SP,C:\Users\Ben\ttx\svp\pages\SVP111.tti
 PN,11101
 SC,0001
 PS,8000
-CT,8,T
+CT,30,T
 RE,0
 OL,0,        SATVW+ %%# %%a%d %%b UTCC%H%M:%S
 OL,1,D]MG      THIS IS SATELLATEXT L   1/2  \
@@ -27,7 +27,7 @@ FL,100,101,120,199,8ff,199
 PN,11102
 SC,0002
 PS,8000
-CT,8,T
+CT,30,T
 RE,0
 OL,0,        SATVW+ %%# %%a%d %%b TXTC%H%M:%S
 OL,1,]Qx|t ||t x|t | | |||  8, 8d(< l$<$44l$ 
