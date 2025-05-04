@@ -1,0 +1,99 @@
+DE,SoundLink+ general schedule
+DS,inserter
+SP,C:\Users\Ben\ttx\svp\pages\SVP201.tti
+PN,20101
+SC,0001
+PS,8000
+CT,8,T
+RE,0
+OL,0,        SATVW+ %%# %%a%d %%b TXTC%H%M:%S
+OL,1,]R~//V  S p \]T ||| | | | ||t |||      
+OL,2,]R+mtV  S||\]T (|      ,,      
+OL,3,]R||?V||S / \]T /// /// / //' ///      
+OL,5, FTHURSDAY:                             
+OL,6,AMSt.GIGA: TIDES OF SOUND               
+OL,8, G0800-2300 EST                         
+OL,9, B1200-0300 UTC                         
+OL,10,  ============================          
+OL,11,  Sit back and relax as SL+ brings you  
+OL,12,  Tides of Sound from the St.GIGA       
+OL,13,  Archives, all throughout the day!     
+OL,23,D]CFind day-specific schedules @Fp205  \
+OL,24,ASL+ Home BAbout SL+CDaySchedsFAbout ST 
+FL,200,250,205,111,8ff,199
+PN,20102
+SC,0002
+PS,8000
+CT,15,T
+RE,0
+OL,0,        SATVW+ %%# %%a%d %%B TXTC%H%M:%S
+OL,1,]R~//V  S p \]T ||| | | | ||t |||      
+OL,2,]R+mtV  S||\]T (|      ,,      
+OL,3,]R||?V||S / \]T /// /// / //' ///      
+OL,5, FFRIDAY:                               
+OL,6,AMSt.GIGA: TIDES OF SOUND               
+OL,8, G0800-1700 EST                         
+OL,9, B1200-2100 UTC                         
+OL,10,  ============================          
+OL,11,  Sit back and relax as SL+ brings you  
+OL,12,  Tides of Sound from the St.GIGA       
+OL,13,  Archives, all throughout the day!     
+OL,14, FLATER:                                
+OL,15,AMCITY POP ON SOUNDLINK+                
+OL,17,  1700-2300 EST                         
+OL,18, B2100-0300 UTC                         
+OL,19,  ============================          
+OL,20,  The perfect worldwide urban anthems   
+OL,21,  to put the extra welly into your      
+OL,22,  evening: it's City Pop, on SL+!       
+OL,23,D]CFind day-specific schedules @Fp205  \
+OL,24,ASL+ Home BAbout SL+CDaySchedsFAbout ST 
+FL,200,250,205,111,8ff,199
+PN,20103
+SC,0003
+PS,8000
+CT,8,T
+RE,0
+OL,0,        SATVW+ %%# %%a%d %%B TXTC%H%M:%S
+OL,1,]R~//V  S p \]T ||| | | | ||t |||      
+OL,2,]R+mtV  S||\]T (|      ,,      
+OL,3,]R||?V||S / \]T /// /// / //' ///      
+OL,5, FSATURDAY:                             
+OL,6,AMSATELLARADIO+ HITS                    
+OL,8, G0800-1700 EST                         
+OL,9, B1200-2100 UTC                         
+OL,10,  ============================          
+OL,11,  A mix of fan-picked tracks and hidden 
+OL,12,  gems that wake you up and get you     
+OL,13,  going - SatellaRadio is here on SL+!  
+OL,14, FLATER:                                
+OL,15,AMCITY POP ON SOUNDLINK+                
+OL,17,  1700-2300 EST                         
+OL,18, B2100-0300 UTC                         
+OL,19,  ============================          
+OL,20,  The perfect worldwide urban anthems   
+OL,21,  to put the extra welly into your      
+OL,22,  evening: it's City Pop, on SL+!       
+OL,23,D]CFind day-specific schedules @Fp205  \
+OL,24,ASL+ Home BAbout SL+CDaySchedsFAbout ST 
+FL,200,250,205,111,8ff,199
+PN,20104
+SC,0004
+PS,8000
+CT,8,T
+RE,0
+OL,0,        SATVW+ %%# %%a%d %%B TXTC%H%M:%S
+OL,1,]R~//V  S p \]T ||| | | | ||t |||      
+OL,2,]R+mtV  S||\]T (|      ,,      
+OL,3,]R||?V||S / \]T /// /// / //' ///      
+OL,5, FSUNDAY:                               
+OL,6,AMSATELLARADIO+ HITS                    
+OL,8, G0800-2300 EST                         
+OL,9, B1200-0300 UTC                         
+OL,10,  ============================          
+OL,11,  The fans take over to bring you their 
+OL,12,  favourites, along with your daily dose
+OL,13,  of hits: SatellaRadio all Sunday long!
+OL,23,D]CFind day-specific schedules @Fp205  \
+OL,24,ASL+ Home BAbout SL+CDaySchedsFAbout ST 
+FL,200,250,205,111,8ff,199

@@ -1,0 +1,105 @@
+DE,BS schedule 
+DS,inserter
+SP,C:\Users\Ben\ttx\svp\pages\SVP101.tti
+PN,10101
+SC,0001
+PS,8000
+CT,8,T
+RE,0
+OL,0,        SATVW+ %%# %%a%d %%b TXTC%H%M:%S
+OL,1,]T+} ~//  "ot?! T ||| | | | ||t |||    
+OL,2,]Unw +m4  5  T (|      ,,    
+OL,3,]Sx? ||=  `~"ot T /// /// / //' ///    
+OL,5,  TONIGHT:                              
+OL,6,MABS CU-ON-PA [10/27]                   
+OL,7,   ``ER                                 
+OL,8,LG0800-1100 EST                         
+OL,9, B1200-1500 UTC                         
+OL,10, ELOCATION: BROADCAST STN.              
+OL,11,  =========================             
+OL,16,  LATER:                                
+OL,17,MALODE RUNNER TWIN        DARIUS FORCEL 
+OL,18,  sU         sssss ssssssssssssss       
+OL,19,  1100-1400 EST    ||    1400-1700 EST  
+OL,20, B1500-1800 UTC    ||    1800-2100 UTC  
+OL,21, EBROADCAST STN.   ||    BROADCAST STN  
+OL,23,D]CSatellaview+: BS-X, without the BS  \
+OL,24,   PRESSAREDGto return to SatellaText   
+FL,100,200,152,199,8ff,199
+PN,10102
+SC,0002
+PS,8000
+CT,8,T
+RE,0
+OL,0,        SATVW+ %%# %%a%d %%b TXTC%H%M:%S
+OL,1,]T+} ~//  "ot?! T ||| | | | ||t |||    
+OL,2,]Unw +m4  5  T (|      ,,    
+OL,3,]Sx? ||=  `~"ot T /// /// / //' ///    
+OL,5,  LATER TONIGHT:                        
+OL,6,MADARIUS FORCE                          
+OL,8,  1400-1700 EST                         
+OL,9, B1800-2100 UTC                         
+OL,10, EBROADCAST STN.                        
+OL,11,MAU.F.O. KAMEN YAKISOBAN                
+OL,13,  1700-2000 EST                         
+OL,14, B2100-0000 UTC                         
+OL,15, EBROADCAST STN.                        
+OL,16,MASUTTE HAKKUN:98 WINTER EVENT VER.     
+OL,18,  2000-2300 EST                         
+OL,19, B0000-0300 UTC                         
+OL,20, EBROADCAST STN.                        
+OL,23,D]CSV+: Now adopting UTC!    SeeFp123  \
+OL,24,AHome     BSoundLink+CInfoReelFIndex    
+FL,100,200,152,199,8ff,199
+PN,10103
+SC,0003
+PS,8000
+CT,8,T
+RE,0
+OL,0,        SATVW+ %%# %%a%d %%b TXTC%H%M:%S
+OL,1,]T+} ~//  "ot?! T ||| | | | ||t |||    
+OL,2,]Unw +m4  5  T (|      ,,    
+OL,3,]Sx? ||=  `~"ot T /// /// / //' ///    
+OL,5,  TONIGHT:                              
+OL,6,MAMACHI MAGAZINE                        
+OL,8,  0800-2300 EST                         
+OL,9, B1200-0300 UTC                         
+OL,10, ENEWS WALL                             
+OL,11,MCNEW: MECHAROBOT GOLF                  
+OL,12,  ```                                   
+OL,13,  1100-2300 EST                         
+OL,14, B1500-0300 UTC                         
+OL,15, ESTADIUM                               
+OL,16,MBKEROKERO KEROPPI NO BOUKEN NIKKI      
+OL,18,  0800-2300 EST                         
+OL,19, B1200-0300 UTC                         
+OL,20, ETEMPLE                                
+OL,23,D]CSatellaview+: BS-X, without the BS  \
+OL,24,AHome     BSoundLink+CInfoReelFIndex    
+FL,100,200,152,199,8ff,199
+PN,10104
+SC,0004
+PS,8000
+CT,8,T
+RE,0
+OL,0,        SATVW+ %%# %%a%d %%b TXTC%H%M:%S
+OL,1,]T+} ~//  "ot?! T ||| | | | ||t |||    
+OL,2,]Unw +m4  5  T (|      ,,    
+OL,3,]Sx? ||=  `~"ot T /// /// / //' ///    
+OL,5,  TONIGHT:                              
+OL,6,MF````````````````````````````          
+OL,8,  0800-2300 EST                         
+OL,9, B1200-0300 UTC                         
+OL,10, EPHONE BOOTH [300G]                    
+OL,11,MD````````````````````````````          
+OL,12,  ``                                    
+OL,13,  1100-2300 EST                         
+OL,14, B1500-0300 UTC                         
+OL,15, EROBOT TOWER                           
+OL,16,ME````````````````````````````          
+OL,18,  0800-2300 EST                         
+OL,19, B1200-0300 UTC                         
+OL,20, EEVENT PLAZA                           
+OL,23,D]CSatellaview+: BS-X, without the BS  \
+OL,24,AHome     BSoundLink+CInfoReelFIndex    
+FL,100,200,152,199,8ff,199
