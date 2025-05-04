@@ -1,0 +1,26 @@
+DE,SatText Info panel (reel)
+DS,inserter
+SP,C:\Users\Ben\ttx\svp\pages\SVP152-02.tti
+PN,15202
+SC,0000
+PS,8000
+CT,8,T
+RE,0
+OL,0,        SATVW+ %%# %%a%d %%b TXTC%H%M:%S
+OL,1,D]MG      YOU ARE WATCHING THE         \
+OL,3,D]MG   PAGES OF A CONCEPT TELETEXT     \
+OL,5,D]MG          SERVICE FROM             \
+OL,7,W]Q`||2dik5`p   0  ``     0          W]\
+OL,8,W]T*uu}*" !ep ,4=hljj ,4444hlh`h  ppW]\
+OL,9,W]U0o+k4   `p%w5ejs*:0w5e%ejs*::  ##W]\
+OL,10,W]Vt3#                              W]\
+OL,11,G]D i'm back - i'm glad you returned   \
+OL,12,D]MG  The Satellaview+ service and     \
+OL,14,D]MG SoundLink+ internet radio begin   \
+OL,16,D]MGat 8am EST (12 noon UTC) and are   \
+OL,18,D]MG  available to all for free at     \
+OL,20,D]MC   satellaviewplus.github.io       \
+OL,22,W^Z_?my39yuntgcyf9of'3fslc,p|tppx~ 
+OL,23,D]                                     \
+OL,24,   PRESSAREDGto return to SatellaText   
+FL,100,8ff,8ff,8ff,8ff,8ff

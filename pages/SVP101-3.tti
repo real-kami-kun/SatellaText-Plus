@@ -1,12 +1,12 @@
-DE,Description goes here
+DE,BS schedule page 3
 DS,inserter
 SP,C:\Users\Ben\ttx\svp\pages\SVP101-3.tti
 PN,10103
 SC,0000
 PS,8000
-CT,15,T
+CT,8,T
 RE,0
-OL,0,        SATVW+ %%# %%a%d %%b UTCC%H%M:%S
+OL,0,        SATVW+ %%# %%a%d %%b TXTC%H%M:%S
 OL,1,]T+} ~//  "ot?! T ||| | | | ||t |||    
 OL,2,]Unw +m4  5  T (|      ,,    
 OL,3,]Sx? ||=  `~"ot T /// /// / //' ///    
@@ -25,5 +25,5 @@ OL,18,  0800-2300 EST
 OL,19, B1200-0300 UTC                         
 OL,20, ETEMPLE                                
 OL,23,D]CSatellaview+: BS-X, without the BS  \
-OL,24,  AHome                                 
-FL,100,8ff,8ff,8ff,8ff,199
+OL,24,AHome     BSoundLink+CInfoReelFIndex    
+FL,100,200,152,199,8ff,199
