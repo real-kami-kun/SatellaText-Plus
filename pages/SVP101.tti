@@ -24,7 +24,7 @@ OL,19,  1100-1400 EST    ||    1400-1700 EST
 OL,20, B1500-1800 UTC    ||    1800-2100 UTC  
 OL,21, EBROADCAST STN.   ||    BROADCAST STN  
 OL,23,D]CSatellaview+: BS-X, without the BS  \
-OL,24,   PRESSAREDGto return to SatellaText   
+OL,24,AHome     BSoundLink+CInfoReelFIndex    
 FL,100,200,152,199,8ff,199
 PN,10102
 SC,0002
