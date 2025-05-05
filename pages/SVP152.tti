@@ -87,14 +87,14 @@ OL,1,]T+} ~//  "ot?! T ||| | | | ||t |||
 OL,2,]Unw +m4  5  T (|      ,,    
 OL,3,]Sx? ||=  `~"ot T /// /// / //' ///    
 OL,5,  TONIGHT:                              
-OL,6,MABS CU-ON-PA [10/27]                   
+OL,6,MANEW:JISGAW PARTY                      
 OL,7,   ``ER                                 
 OL,8,LG0800-1100 EST                         
 OL,9, B1200-1500 UTC                         
 OL,10, ELOCATION: BROADCAST STN.              
 OL,11,  =========================             
 OL,16,  LATER:                                
-OL,17,MALODE RUNNER TWIN        DARIUS FORCEL 
+OL,17,MANEW:KENDO RAGE           THE FIREMENL 
 OL,18,  sU         sssss ssssssssssssss       
 OL,19,  1100-1400 EST    ||    1400-1700 EST  
 OL,20, B1500-1800 UTC    ||    1800-2100 UTC  
@@ -112,15 +112,15 @@ OL,1,]T+} ~//  "ot?! T ||| | | | ||t |||
 OL,2,]Unw +m4  5  T (|      ,,    
 OL,3,]Sx? ||=  `~"ot T /// /// / //' ///    
 OL,5,  LATER TONIGHT:                        
-OL,6,MADARIUS FORCE                          
+OL,6,MATHE FIREMEN [EU]                      
 OL,8,  1400-1700 EST                         
 OL,9, B1800-2100 UTC                         
 OL,10, EBROADCAST STN.                        
-OL,11,MAU.F.O. KAMEN YAKISOBAN                
+OL,11,MAOPERATION LOGIC BOMB                  
 OL,13,  1700-2000 EST                         
 OL,14, B2100-0000 UTC                         
 OL,15, EBROADCAST STN.                        
-OL,16,MASUTTE HAKKUN:98 WINTER EVENT VER.     
+OL,16,MANEW:CLOCKWERX                         
 OL,18,  2000-2300 EST                         
 OL,19, B0000-0300 UTC                         
 OL,20, EBROADCAST STN.                        
@@ -137,16 +137,16 @@ OL,1,]T+} ~//  "ot?! T ||| | | | ||t |||
 OL,2,]Unw +m4  5  T (|      ,,    
 OL,3,]Sx? ||=  `~"ot T /// /// / //' ///    
 OL,5,  TONIGHT:                              
-OL,6,MAMACHI MAGAZINE                        
+OL,6,MAFREUD'S CHALLENGE VOL.1               
 OL,8,  0800-2300 EST                         
 OL,9, B1200-0300 UTC                         
 OL,10, ENEWS WALL                             
-OL,11,MCNEW: MECHAROBOT GOLF                  
+OL,11,MCGEORGE FOREMAN'S KO BOXING            
 OL,12,  ```                                   
 OL,13,  1100-2300 EST                         
 OL,14, B1500-0300 UTC                         
 OL,15, ESTADIUM                               
-OL,16,MBKEROKERO KEROPPI NO BOUKEN NIKKI      
+OL,16,MBALCAHAST                              
 OL,18,  0800-2300 EST                         
 OL,19, B1200-0300 UTC                         
 OL,20, ETEMPLE                                
@@ -297,4 +297,20 @@ OL,12,  favourites, along with your daily dose
 OL,13,  of hits: SatellaRadio all Sunday long!
 OL,23,D]CFind day-specific schedules @Fp205  \
 OL,24,   PRESSAREDGto return to SatellaText   
+FL,100,8ff,8ff,8ff,8ff,199
+PN,15213
+SC,0013
+PS,8000
+CT,8,T
+RE,0
+OL,0,        SATVW+ %%# %%a%d %%B TXTC%H%M:%S
+OL,1,]R~//V  S p \]T ||| ||| ||t x|t | |    
+OL,2,]R+mtV  S||\]T        p +|'    
+OL,3,]R||?V||S / \]T  /  /// //' / /  /     
+OL,5, F                                      
+OL,6,AMNO SPECIAL EVENTS TODAY, SORRY.       
+OL,8, G                                      
+OL,9, B                                      
+OL,23,D]CHow to connect to SV+        Fp556  \
+OL,24,   PRESSAREDGto return to SatellaText  \
 FL,100,8ff,8ff,8ff,8ff,199
