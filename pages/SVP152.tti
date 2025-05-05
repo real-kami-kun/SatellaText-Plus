@@ -301,7 +301,7 @@ FL,100,8ff,8ff,8ff,8ff,199
 PN,15213
 SC,0013
 PS,8000
-CT,8,T
+CT,15,T
 RE,0
 OL,0,        SATVW+ %%# %%a%d %%B TXTC%H%M:%S
 OL,1,]R~//V  S p \]T ||| ||| ||t x|t | |    
