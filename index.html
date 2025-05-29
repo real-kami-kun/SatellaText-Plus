@@ -1,94 +1,1 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title>SatellaText | SV+ Teletext Service</title>
-	<link rel="icon" type="image/svg+xml" href="/assets/SatellaText-logo-white.svg"/>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-	<meta charset="UTF-8"/>
-	<meta name="description" content="SatellaView+'s Teletext Service"/>
-	<style>
-		nav {
-			float: left;
-			width: 30%;
-		}
-		@font-face {
-			font-family: sceNewRodin;
-			src: url(assets/SCE-PS3-NR-R-JPN.TTF);
-			font-weight: normal;
-		}
-		@font-face {
-			font-family: sceNewRodin;
-			src: url(assets/SCE-PS3-NR-B-JPN.TTF);
-			font-weight: bold;
-		}
-		* {
-			font-family: sceNewRodin;
-		}
-		p {
-			font-size: 15px;
-		}
-	</style>
-</head>
-<!-- Colours are - Tomato, DodgerBlue, Orange, MediumSeaGreen -->
-<body>
-	<header>
-		<marquee bgcolor="Tomato" style="text-align:center;vertical-align:text-top;">
-			Welcome to SatellaText | Croeso i SatellaText | サテレテクストようこそ | Bienvenue à SatellaText | Bem-vindo ao SatellaText | Bienvenido a SatellaText | Wilkommen bei SatellaText | 欢迎来到 SatellaText | SatellaText 에 오신 것을 환영합니다 |
-		</marquee>
-		<br/>
-		<img src="assets/SatellaText-logo-black.svg" alt="SatellaText Logo" style="float:left;width:75px;height:75px;"/><h1>SatellaText</h1>
-		<hr style="vertical-align:super;"/>
-		<p>The teletext service from Satellaview+</p>
-	</header>
-	<nav>
-		<a href="/index.html">Home</a><b> | </b><a href="/instguid.html">Install</a><b> | </b><a href="https://github.com/real-kami-kun/SatellaText-Plus">Get SatText!</a><b> | </b><a href="https://satellaviewplus.github.io/">Satellaview+</a>
-	</nav>
-	<br/>
-	<section>
-		<h2>What is SatellaText?</h2>
-		<p>
-		<i><b>SatellaText</b></i> is the official teletext service of Satellaview+, and completes the triangle
-		of the Satellaview+ family of services. SatellaText (or SatTXT, for short) features many
-		pages of information, including schedules, news, trivia, articles, and even games!
-		And SatTXT is open and free for anyone to check out - all you need is a way to view internet
-		teletext pages.
-		</p>
-	</section>
-	<footer>
-		<p id="datetimeget"></p>
-		<script>
-			function getLang() {
-				if (navigator.languages !== undefined) 
-					return navigator.languages; 
-				return navigator.language;
-			}
-
-			function formatAMPM() {
-			if (navigator.languages[1] == "cy" || navigator.languages[0] == "cy") {
-				var d = new Date(),
-					minutes = d.getMinutes().toString().length == 1 ? '0'+d.getMinutes() : d.getMinutes(),
-					hours = d.getHours().toString().length == 1 ? '0'+d.getHours() : d.getHours(),
-					ampm = (d.getHours() >= 18) ? 'yh' : (12 <= d.getHours() < 18) ? 'yp' : 'yb',
-					months = ['Ionawr','Chwefror','Mawrth','Ebrill','Mai','Mehefin','Gorffennaf','Awst','Medi','Hydref','Tachwedd','Rhagfyr'],
-					days = ['Sul','Llun','Mawrth','Mercher','Iau','Gwener','Sadwrn'];
-			} else {	
-				var d = new Date(),
-					minutes = d.getMinutes().toString().length == 1 ? '0'+d.getMinutes() : d.getMinutes(),
-					hours = d.getHours().toString().length == 1 ? '0'+d.getHours() : d.getHours(),
-					ampm = d.getHours() >= 12 ? 'pm' : 'am',
-					months = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'],
-					days = ['Sun','Mon','Tue','Wed','Thu','Fri','Sat'];
-			}
-			return days[d.getDay()]+' '+months[d.getMonth()]+' '+d.getDate()+' '+d.getFullYear()+' '+hours+':'+minutes+ampm;
-			}
-			document.getElementById("datetimeget").innerHTML = formatAMPM();
-			if (navigator.languages[1] == "cy" || navigator.languages[0] == "cy") {
-				console.log("Welsh locale setting detected. Diwrnod da Cymru!")
-			}
-		</script>
-    <noscript>
-      Oops, scripts couldn't load! Enable JavaScript or make sure NoScript is set to trust this page.
-    </noscript>
-	</footer>
-</body>
-</html>
+<!DOCTYPE html><html><head>	<title>SatellaText | SV+ Teletext Service</title>	<link rel="icon" type="image/svg+xml" href="/assets/SatellaText-logo-white.svg"/>	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>	<meta charset="UTF-8"/>	<meta name="description" content="SatellaView+'s Teletext Service"/>	<style>		nav {			float: left;			width: 30%;		}		@font-face {			font-family: sceNewRodin;			src: url(assets/SCE-PS3-NR-R-JPN.TTF);			font-weight: normal;		}		@font-face {			font-family: sceNewRodin;			src: url(assets/SCE-PS3-NR-B-JPN.TTF);			font-weight: bold;		}		* {			font-family: sceNewRodin;		}		p {			font-size: 15px;		}	</style></head><!-- Colours are - Tomato, DodgerBlue, Orange, MediumSeaGreen --><body>	<header>		<marquee bgcolor="Tomato" style="text-align:center;vertical-align:text-top;">			Welcome to SatellaText | Croeso i SatellaText | サテレテクストようこそ | Bienvenue à SatellaText | Bem-vindo ao SatellaText | Bienvenido a SatellaText | Wilkommen bei SatellaText | 欢迎来到 SatellaText | SatellaText 에 오신 것을 환영합니다 |		</marquee>		<br/>		<img src="assets/SatellaText-logo-black.svg" alt="SatellaText Logo" style="float:left;width:75px;height:75px;"/><h1>SatellaText</h1>		<hr style="vertical-align:super;"/>		<p>The teletext service from Satellaview+</p>	</header>	<nav>		<a href="/index.html">Home</a><b> | </b><a href="/instguid.html">Install</a><b> | </b><a href="https://github.com/real-kami-kun/SatellaText-Plus">Get SatText!</a><b> | </b><a href="https://satellaviewplus.github.io/">Satellaview+</a>	</nav>	<br/>	<section>		<h2>What is SatellaText?</h2>		<p>		<i><b>SatellaText</b></i> is the official teletext service of Satellaview+, and completes the triangle		of the Satellaview+ family of services. SatellaText (or SatTXT, for short) features many		pages of information, including schedules, news, trivia, articles, and even games!		And SatTXT is open and free for anyone to check out - all you need is a way to view internet		teletext pages.		</p>	</section>	<footer>		<p id="datetimeget"></p>		<script>			function GetURLParameter(sParam)			{				var sPageURL = window.location.search.substring(1);				var sURLVariables = sPageURL.split('&');				for (var i = 0; i < sURLVariables.length; i++) 				{					var sParameterName = sURLVariables[i].split('=');					if (sParameterName[0] == sParam) 					{						return sParameterName[1];					}				}			}						function getLang() {				if (navigator.languages !== undefined) 					return navigator.languages; 				return navigator.language;			}						var dataLocale = GetURLParameter('lang');			console.log(dataLocale);			if (dataLocale == undefined) {				let dataLocale = "en"			}						function formatAMPM() {			if (dataLocale == "cy") {				var d = new Date(),					minutes = d.getMinutes().toString().length == 1 ? '0'+d.getMinutes() : d.getMinutes(),					hours = d.getHours().toString().length == 1 ? '0'+d.getHours() : d.getHours(),					ampm = (d.getHours() >= 18) ? 'yh' : (12 <= d.getHours() < 18) ? 'yp' : 'yb',					months = ['Ionawr','Chwefror','Mawrth','Ebrill','Mai','Mehefin','Gorffennaf','Awst','Medi','Hydref','Tachwedd','Rhagfyr'],					days = ['Sul','Llun','Mawrth','Mercher','Iau','Gwener','Sadwrn'];			} else {					var d = new Date(),					minutes = d.getMinutes().toString().length == 1 ? '0'+d.getMinutes() : d.getMinutes(),					hours = d.getHours().toString().length == 1 ? '0'+d.getHours() : d.getHours(),					ampm = d.getHours() >= 12 ? 'pm' : 'am',					months = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'],					days = ['Sun','Mon','Tue','Wed','Thu','Fri','Sat'];			}			return days[d.getDay()]+' '+months[d.getMonth()]+' '+d.getDate()+' '+d.getFullYear()+' '+hours+':'+minutes+ampm;			}			document.getElementById("datetimeget").innerHTML = formatAMPM();			if (navigator.languages[1] == "cy" || navigator.languages[0] == "cy") {				console.log("Welsh locale setting detected. Diwrnod da Cymru!")			}		</script>		<noscript>			Oops, scripts couldn't load! Enable JavaScript or make sure NoScript is set to trust this page.		</noscript>	</footer></body></html>
