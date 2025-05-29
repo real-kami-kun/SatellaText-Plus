@@ -7,26 +7,27 @@ PS,8000
 CT,15,T
 RE,0
 OL,0,        SATVW+ %%# %%a%d %%b TXTC%H%M:%S
-OL,3,W     T]                        \       
-OL,4,W  -,$T]                        \       
-OL,5,W  ws5T]        \T##+///]       \       
-OL,6,W  tt4T]     Z\R- )(}4`YT+]T^ \        
-OL,7,W  tt4T]      \         T ]T  \         
-OL,8,W     T]      \ Wtppp0  T ]T \          
-OL,9,W  *  T]    S \9Wk7(yg{c?||||         
-OL,10,W  wg5T]      \W ~}({-{$u         
-OL,11,W  4<4T]      \R  $W"+/////////         
-OL,12,W  c!!T]W `ppp\  `ppp`0`ppp ppp0        
-OL,13,W  rp4T]Wx/###!\hj5~'## ##m0       
-OL,14,W  pp1  (||0,= z7  pju4  p+u  ot      
-OL,15,W  ),!   +o%>!`!  "ju  +tou  +}0    
-OL,16,W  #;!x|||~'*!$*}||| / o}|~"4  "}0   
-OL,17,W  ,.$                        "!   #!   
-OL,18,W  ,.$                                  
-OL,19,   The data that will be transmitted    
-OL,20,  should only be used for its intended  
-OL,21,               purpose.                 
-OL,23,D]G(C)2023-25 Satellaview+ Team et al. \
+OL,2, W`  T                                  
+OL,3, W",,T          
+OL,4, Wh#iT  ?///        
+OL,5, W`#aT  Wxi0Sl<Tb/o        
+OL,6, W"&&T  Wbbbb0p`n*$TWi        
+OL,7, W*8:T  W .,,,+$,,dTWa        
+OL,8, W h T  S74W6#?o7;,<,||qss        
+OL,9, WhllT  S5uW}|}~5f=b=fuz#7k        
+OL,10, W"&&T  S55Q| | | |W#//////        
+OL,11, W*8iT   Qj////////        
+OL,12, W h T   Qjpppppppp        
+OL,13, W(,nT   Qj#######        
+OL,14, Wh,lV   'css;'cssgtg<,&?y,3;       
+OL,15, W",&V  ?!*#c#9jed||,6jh|<%mhvf&o      
+OL,16, W"c'V }9/!ig9:j5*j5uk0%o}92o     
+OL,17, W(,-V'px|<5 >beo||.'0g`d,,./0pkvdk    
+OL,18, W(,-V}|||||}|}~}|||~}|}|||||}~    
+OL,19,  The data that will be transmitted     
+OL,20, should only be used for its intended   
+OL,21,              purpose.                  
+OL,23,T]G(C)2023-25 Satellaview+ Team at al.  
 OL,24,   PRESSAREDGto return to SatellaText   
 FL,100,8ff,8ff,8ff,8ff,199
 PN,15202
@@ -87,14 +88,14 @@ OL,1,]T+} ~//  "ot?! T ||| | | | ||t |||
 OL,2,]Unw +m4  5  T (|      ,,    
 OL,3,]Sx? ||=  `~"ot T /// /// / //' ///    
 OL,5,  TONIGHT:                              
-OL,6,MAEBISUMARU'S MAZE                      
+OL,6,MAWARIO'S WOODS - EVENT VER.1           
 OL,7,   ``ER                                 
 OL,8,LG0800-1100 EST                         
 OL,9, B1200-1500 UTC                         
 OL,10, ELOCATION: BROADCAST STN.              
 OL,11,  =========================             
 OL,16,  LATER:                                
-OL,17,MATSURI TAROU          TURTLES IN TIME  
+OL,17,MANAKAYOSHI WORLD    SUPER TRUMP COL.2  
 OL,18,  sU         sssss ssssssssssssss       
 OL,19,  1100-1400 EST    ||    1400-1700 EST  
 OL,20, B1500-1800 UTC    ||    1800-2100 UTC  
@@ -112,15 +113,15 @@ OL,1,]T+} ~//  "ot?! T ||| | | | ||t |||
 OL,2,]Unw +m4  5  T (|      ,,    
 OL,3,]Sx? ||=  `~"ot T /// /// / //' ///    
 OL,5,  LATER TONIGHT:                        
-OL,6,MATMNT IV: TURTLES IN TIME              
+OL,6,MANEW:SUPER TRUMP COLLECTION 2          
 OL,8,  1400-1700 EST                         
 OL,9, B1800-2100 UTC                         
 OL,10, EBROADCAST STN.                        
-OL,11,MAPICO PICO PIRATES                     
+OL,11,MAACTION PACHIO                         
 OL,13,  1700-2000 EST                         
 OL,14, B2100-0000 UTC                         
 OL,15, EBROADCAST STN.                        
-OL,16,MATHE FIREMEN                           
+OL,16,MAMICKEY MOUSE: THE MAGICAL QUEST       
 OL,18,  2000-2300 EST                         
 OL,19, B0000-0300 UTC                         
 OL,20, EBROADCAST STN.                        
@@ -137,16 +138,16 @@ OL,1,]T+} ~//  "ot?! T ||| | | | ||t |||
 OL,2,]Unw +m4  5  T (|      ,,    
 OL,3,]Sx? ||=  `~"ot T /// /// / //' ///    
 OL,5,  TONIGHT:                              
-OL,6,MAORYOURI PON! [12/11]                  
+OL,6,MAGOODSPRESS JUNE                       
 OL,8,  0800-2300 EST                         
 OL,9, B1200-0300 UTC                         
 OL,10, ENEWS WALL                             
-OL,11,MCNEW:LEADING JOCKEY                    
+OL,11,MCSUPER HANAFUDA 2                      
 OL,12,  ```                                   
 OL,13,  1100-2300 EST                         
 OL,14, B1500-0300 UTC                         
 OL,15, ESTADIUM                               
-OL,16,MBSOUL BLAZER                           
+OL,16,MBALCAHEST                              
 OL,18,  0800-2300 EST                         
 OL,19, B1200-0300 UTC                         
 OL,20, ETEMPLE                                
