@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Installation | SatellaText</title>
+	<link rel="icon" type="image/svg+xml" href="assets/SatellaText-logo-white.svg"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<meta charset="UTF-8"/>
+	<meta name="description" content="SatellaView+'s Teletext Service"/>
+	<link rel="stylesheet" href="default.css"/>
+</head>
+<!-- Colours are - Tomato, DodgerBlue, Orange, MediumSeaGreen -->
+<body>
+	<header>
+		<marquee bgcolor="Tomato" style="text-align:center;vertical-align:text-top;">
+			Welcome to SatellaText | Croeso i SatellaText | サテレテクストようこそ | Bienvenue à SatellaText | Bem-vindo ao SatellaText | Bienvenido a SatellaText | Wilkommen bei SatellaText | 欢迎来到 SatellaText | SatellaText 에 오신 것을 환영합니다 |
+		</marquee>
+		<br/>
+		<img src="assets/SatellaText-logo-black.svg" alt="SatellaText Logo" style="float:left;width:75px;height:75px;"/><h1>SatellaText</h1>
+		<hr style="vertical-align:super;"/>
+		<p>The teletext service from Satellaview+</p>
+	</header>
+	<nav>
+		<a href="index.html">Home</a><b> | </b><a href="instguid.html">Install</a><b> | </b><a href="https://github.com/real-kami-kun/SatellaText-Plus">Get SatText!</a><b> | </b><a href="https://satellaviewplus.github.io/">Satellaview+</a>
+	</nav>
+	<br/>
+	<section>
+		<h1>SatellaText Installation Guide</h1>
+		<p>
+		This guide is split up into several sections, with each one catering to a different method of<br/>
+		setting up and using the SatellaText service. Below is a teble of contents.<br/>
+		</p>
+	</section>
+	<aside>
+	<h3 class="header">Contents</h3>
+	<ul>
+		<li><a href="#Raspberry_Pi_(TV)">Raspberry Pi (TV)</a></li>
+		<li><a href="#Raspberry_Pi_(In-vision)">Raspberry Pi (In-vision)</a></li>
+		<li><a href="Windows_(BeebEm)">Windows (BeebEm)</a></li>
+	</ul>
+	</aside>
+	<section>
+		<h2 class="header" id="Raspberry_Pi_(TV)">Raspberry Pi (TV)</h2>
+		<p>
+		This section is for how to set up SatellaText on a Raspberry Pi, using an analogue-capable TV.<br/>
+		This will allow you to interact with the teletext service via a remote control. You will need:<br/>
+		</p>
+		<ul>
+			<li>A Raspberry Pi Model 1, 2, 3, 4, or Zero/Zero2</li>
+			<li>An internet connection</li>
+			<li>A PAL television with a composite input and teletext capability</li>
+			<li>A compatible composite cable for your Pi</li>
+			<li>An install of Raspberry Pi OS Desktop (Buster or Bullseye)</li>
+		</ul>
+		<p>
+		Note that the Model 5, 400 and 500 are not supported, as these do not have composite capability.<br/>
+		Also keep in mind that on a Pi Zero, you will need to solder on a pin header (Zero), or the cable<br/>
+		itself (Zero 2) to your Pi to gain access to the composite output pins/pads.<br/>
+		<b>REMEMBER THAT THIS WILL ONLY WORK WITH A PAL TELEVISION SET.</b><br/>
+		<br/>
+		The first step is to install VBIT2 on your Pi. After booting into Raspberry Pi OS, you will need to<br/>
+		connect to the Internet, using Ethernet, Wi-Fi, or whatever method you use. Then, open a terminal window<br/>
+		and type in the following:<br/>
+		<code>
+		wget https://raw.githubusercontent.com/peterkvt80/vbit2/master/getvbit2
+		</code><br/>
+		which will download the install script. Then run it with<br/>
+		<code>bash getvbit2</code><br/>
+		<br/>
+		After installing the programme, the VBIT2 configuration tool will start. Select the first option,<br/>
+		[Ｉ　Ｉｎｓｔａｌｌ ｓｅｒｖｉｃｅ] and install any other services you want to use alongside SatellaText. To<br/>
+		install SatellaText itself, select [１　Ｉｎｓｔａｌｌ ｓｅｒｖｉｃｅ], then select the last option,<br/>
+		[Ｃ　Ｃｕｓｔｏｍ ｓｅｒｖｉｃｅ], and finally, select, [Ｇ　Ｇｉｔ ｒｅｐｏｓｉｔｏｒｙ]. Then, type in the link to<br/>
+		the SatellaText repository: <br/>
+		<code>https://github.com/real-kami-kun/SatellaText-Plus.git</code><br/>
+		and set the name of the service to "SatellaText".<br/>
+		<br/>
+		Once back at the main menu, make sure that SatTXT is selected, then exit the config tool.<br/>
+		You will need to restart your Pi, and switch to the composite output. If you get any sort of<br/>
+		anomalies with the video (inverted, no video, buzzing in audio) then your cables are not <br/>
+		compatible.<br/>
+		Once rebooted, open the terminal and type<code>vbit-config</code> to start the config tool.<br/>
+		Select [Ｖ　Ｓｔａｒｔ ＶＢＩＴ２]. If everything is correct, you should be able to press the TEXT<br/>
+		(<img src="assets/text_btn.svg" alt="Teletext button icon" style="width:1em;height:1em;"/>)
+		button and the SatellaText home page should load up after a moment or two. Now you can start<br/>
+		browsing and exploring what the service has to offer! Enjoy!
+		</p>
+	</section>
+	<section>
+		<h2 class="header" id="Raspberry_Pi_(In-vision)">Raspberry Pi (In-vision)</h2>
+		<p>
+		This section is for how to set up SatellaText on a Raspberry Pi, as an in-vision video feed.<br/>
+		This will allow you to use the service with a Pi on any display, controlled via keyboard.<br/>
+		<b>NOTE:</b> Unlike the TV method, this one will work on any Pi, Model 5 and 400/500 included.<br/>
+		<br/>
+		First, set up VBIT2 as mentioned in the TV method.<br/>
+		You will want to install SatTXT and any other services you want,However, you will want to<br/>
+		enter the [Ｏ　Ｏｐｔｉｏｎｓ] menu and uncheck "Run VBIT2 automatically at boot", if checked.<br/>
+		<b>DO NOT RUN VBIT2 OR SET IT TO RUN AT BOOT.</b><br/>
+		<br/>
+		Next, it's time to set up VBIT-IV, the in-vision extension to VBIT2. Exit vbit-config and type:<br/>
+		<code>git clone https://github.com/peterkvt80/vbit-iv.git</code><br/>
+		Once the repository is cloned, you'll need to install Python 3 (if not already installed), as<br/>
+		well as some extra packages that are needed, using the follwing commands:<br/>
+		<code>pip3 install screeninfo</code><br/>
+		<code>pip3 install readchar</code><br/>
+		<code>pip3 install zmq</code><br/>
+		<code>cd vbit-iv</code><br/>
+		<code>sudo cp *.ttf /usr/local/share/fonts</code><br/>
+		If you want keyboard control, open a second terminal window in the same folder and type:<br/>
+		<code>./vbit-remote</code><br/>
+		This will allow keyboard input to be passed to VBIT. In the first window, run:<br/>
+		<code>./innervision.py</code><br/>
+		to run VBIT-IV. You may have to <kbd>Alt+Tab</kbd> to the second window to get your<br/>
+		keyboard inputs to register. Enjoy!<br/>
+		NOTE: Press <kbd>Ctrl + C</kbd> to leave VBIT-IV.<br/>
+		</p>
+	</section>
+	<section>
+		<h2 class="header" id="Windows_(BeebEm)">Windows (BeebEm)</h2>
+		<p>
+		For instructions, follow <a href="https://zxnet.co.uk/teletext/emulators/">this guide.</a>
+		</p>
+	</section>
+	<footer>
+		<p id="datetimeget"></p>
+		<script>
+			function GetURLParameter(sParam)
+			{
+				var sPageURL = window.location.search.substring(1);
+				var sURLVariables = sPageURL.split('&');
+				for (var i = 0; i < sURLVariables.length; i++) 
+				{
+					var sParameterName = sURLVariables[i].split('=');
+					if (sParameterName[0] == sParam) 
+					{
+						return sParameterName[1];
+					}
+				}
+			}
+			
+			function getLang() {
+				if (navigator.languages !== undefined) 
+					return navigator.languages; 
+				return navigator.language;
+			}
+			
+			var dataLocale = GetURLParameter('lang');
+			console.log(dataLocale);
+			if (dataLocale == undefined) {
+				let dataLocale = "en"
+			}
+			
+			function formatAMPM() {
+			if (dataLocale == "cy") {
+				var d = new Date(),
+					minutes = d.getMinutes().toString().length == 1 ? '0'+d.getMinutes() : d.getMinutes(),
+					hours = d.getHours().toString().length == 1 ? '0'+d.getHours() : d.getHours(),
+					ampm = (d.getHours() >= 18) ? 'yh' : (12 <= d.getHours() < 18) ? 'yp' : 'yb',
+					months = ['Ionawr','Chwefror','Mawrth','Ebrill','Mai','Mehefin','Gorffennaf','Awst','Medi','Hydref','Tachwedd','Rhagfyr'],
+					days = ['Sul','Llun','Mawrth','Mercher','Iau','Gwener','Sadwrn'];
+			} else {	
+				var d = new Date(),
+					minutes = d.getMinutes().toString().length == 1 ? '0'+d.getMinutes() : d.getMinutes(),
+					hours = d.getHours().toString().length == 1 ? '0'+d.getHours() : d.getHours(),
+					ampm = d.getHours() >= 12 ? 'pm' : 'am',
+					months = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'],
+					days = ['Sun','Mon','Tue','Wed','Thu','Fri','Sat'];
+			}
+			return days[d.getDay()]+' '+months[d.getMonth()]+' '+d.getDate()+' '+d.getFullYear()+' '+hours+':'+minutes+ampm;
+			}
+			document.getElementById("datetimeget").innerHTML = formatAMPM();
+			if (navigator.languages[1] == "cy" || navigator.languages[0] == "cy") {
+				console.log("Welsh locale setting detected. Diwrnod da Cymru!")
+			}
+		</script>
+		<noscript>
+			<hr style="color:tomato;">
+			<b>Oops, something went wrong. Enable JavaScript and reload. If you use NoScript, tell it to trust this page.</b><br/>
+			<i>Ŵps, aeth rhywbeth i'r le. Galluogi JavaScript ac ail-lwytho. Os dych chi'n defnyddio NoScript, dywedwch wrtho i ymddiried yn y dudalen hon.</i><br/>
+			申し訳ございません。　問題が発生しました。
+			ＪａｖａＳｃｒｉｐｔ　を有効にしてリロードしてください。　ＮｏＳｃｒｉｐｔ　を使用する場合は、
+			このページを信頼するように指示してください。
+		</noscript>
+	</footer>
+</body>
+</html>
