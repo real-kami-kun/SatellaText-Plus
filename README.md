@@ -12,7 +12,7 @@ feature roughly around 40+ pages of information, including:
 
 ## What is Satellaview+?
 **Satellaview+** is a free-to-access closed-source project that aims to revive the Satellaview, a Japan-only SNES accessory, or more
-specifically, BS-X, Nintendo's short-lived service for Satellaview, that allowed subscribers to download games, magazines, and more
+specifically, BS-X, Nintendo's short-lived service for Satellaview, that allowed users to download games, magazines, and more
 via satellite broadcasts. BS-X was a collaboration between Nintendo and Japanese satellite radio broadcaster St.GIGA.
 The BS-X service (among other Satellaview services) was ended on 30 June 2000.
 
