@@ -2,19 +2,6 @@
 
 # import libraries
 import xml.etree.ElementTree as ET
-
-"""
-TTI READ CODE
-"""
-def PROC_readTTI():
-    ttxBuf = [' ']
-    tti = open('base-s.tti','rb')
-    ttxBuf.clear()
-    for x in tti:
-        ttxBuf.append(x)
-    tti.close()
-
-
 """
 TIME CONVERTER
 """
@@ -233,8 +220,6 @@ for id in tFoldIds:
 """
 TTI WRITING CODE
 """
-PROC_readTTI()
-
 def PROC_writeTTI():
     
     ttxGame1 = dGame1["name"].upper()
@@ -268,7 +253,7 @@ def PROC_writeTTI():
     ttxTowr = dGameMisc["tName"].upper()
     ttxEvnt = dGameMisc["eName"].upper()
         
-    tti = open("//pages//SVP101.tti","wt")
+    tti = open("SVP101.tti","wt")
     toWrite = f"""DE,BS schedule
 DS,inserter
 SP,C:\\Users\\Ben\\ttx\\svp\\pages\\SVP101.tti
