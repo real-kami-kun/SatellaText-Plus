@@ -1,0 +1,51 @@
+DE,SatText Info panel
+DS,inserter
+SP,C:\Users\Ben\ttx\svp\pages\SVP111.tti
+PN,11101
+SC,0001
+PS,8000
+CT,30,T
+RE,0
+OL,0,        SATVW+ %%# %%a%d %%b UTCC%H%M:%S
+OL,1,D]MG      THIS IS SATELLATEXT L   1/2  \
+OL,3,D]MG     THE INTERNET TELETEXT         \
+OL,5,D]MG          SERVICE FROM             \
+OL,7,W]Q`||2dik5`p   0  ``     0          W]\
+OL,8,W]T*uu}*" !ep ,4=hljj ,4444hlh`h  ppW]\
+OL,9,W]U0o+k4   `p%w5ejs*:0w5e%ejs*::  ##W]\
+OL,10,W]Vt3#                              W]\
+OL,11,G]D i'm back - i'm glad you returned   \
+OL,12,D]MG  The Satellaview+ service and     \
+OL,14,D]MG SoundLink+ internet radio begin   \
+OL,16,D]MGat 8am EST (12 noon UTC) and are   \
+OL,18,D]MG  available to all for free at     \
+OL,20,D]MC   satellaviewplus.github.io       \
+OL,22,W^Z_dw-i'n-jwst-caru-teletestun-iee 
+OL,23,D]C                                    \
+OL,24,AHome     BBS Guide CNews     FIndex    
+FL,100,101,120,199,8ff,199
+PN,11102
+SC,0002
+PS,8000
+CT,30,T
+RE,0
+OL,0,        SATVW+ %%# %%a%d %%b TXTC%H%M:%S
+OL,1,]Qx|t ||t x|t | | |||  8, 8d(< l$<$44l$ 
+OL,2,]Tp ,w         ),0uz 5,j = 91j  
+OL,3,]U/ / //' +/' ///  /   (,!%* % * -$%%*  
+OL,4,                                   2/2  
+OL,5, SatellaText is the companion teletext  
+OL,6, service to Satellaview+, the online    
+OL,7, revival of BS-X. SatellaText is set on 
+OL,8, bringing you the latest updates about  
+OL,9, SV+ and SL+. This service is still a   
+OL,10, work-in-progress, but we hope that it  
+OL,11, will eventually feature over 40 pages  
+OL,12, of news, schedules, and more! Stay     
+OL,13, tuned for more announcements about the 
+OL,14, SatellaText service! You'll find them  
+OL,15, in the News section on p120.           
+OL,22,C]D Learn more about SL+       Ep250   \
+OL,23,D]C Find out more about SV+ on Fp150   \
+OL,24,AHome     BBS Guide CNews     FIndex    
+FL,100,101,120,199,8ff,199
