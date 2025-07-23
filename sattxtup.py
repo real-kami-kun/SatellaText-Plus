@@ -268,7 +268,7 @@ def PROC_writeTTI():
     ttxTowr = dGameMisc["tName"].upper()
     ttxEvnt = dGameMisc["eName"].upper()
         
-    tti = open("SVP101.tti","wt")
+    tti = open("//pages//SVP101.tti","wt")
     toWrite = f"""DE,BS schedule
 DS,inserter
 SP,C:\\Users\\Ben\\ttx\\svp\\pages\\SVP101.tti
