@@ -20,14 +20,15 @@
 		<p>The teletext service from Satellaview+</p>
 	</header>
 	<nav>
-		<a href="index.html">Home</a><b> | </b><a href="instguid.html">Install</a><b> | </b><a href="https://github.com/real-kami-kun/SatellaText-Plus">Get SatText!</a><b> | </b><a href="https://satellaviewplus.github.io/">Satellaview+</a>
+		<a href="index.html">Home</a><b> | </b><a href="instguid.html">Install</a><b> | </b><a href="https://github.com/real-kami-kun/SatellaText-Plus">Get SatText!</a><b> | </b><a href="https://satellaviewplus.github.io/">Satellaview+</a><br/>
+		Available in: <a class="active-link" href="instguid.html">English</a> | <a href="instguid-cy.html">Cymraeg</a> | <a href="instguid-ja.html"><ruby>日本語 <rp>(</rp><rt>にほんご</rt><rp>)</rp></ruby></a><br/>
 	</nav>
-	<br/>
+	<br/><br/><br/><br/>
 	<section>
 		<h1>SatellaText Installation Guide</h1>
 		<p>
-		This guide is split up into several sections, with each one catering to a different method of<br/>
-		setting up and using the SatellaText service. Below is a teble of contents.<br/>
+		This guide is split up into several sections, with each one catering to a different method of 
+		setting up and using the SatellaText service. Below is a table of contents.<br/>
 		</p>
 	</section>
 	<aside>
@@ -41,7 +42,7 @@
 	<section>
 		<h2 class="header" id="Raspberry_Pi_(TV)">Raspberry Pi (TV)</h2>
 		<p>
-		This section is for how to set up SatellaText on a Raspberry Pi, using an analogue-capable TV.<br/>
+		This section is for how to set up SatellaText on a Raspberry Pi, using an analogue-capable TV. 
 		This will allow you to interact with the teletext service via a remote control. You will need:<br/>
 		</p>
 		<ul>
@@ -52,13 +53,13 @@
 			<li>An install of Raspberry Pi OS Desktop (Buster or Bullseye)</li>
 		</ul>
 		<p>
-		Note that the Model 5, 400 and 500 are not supported, as these do not have composite capability.<br/>
-		Also keep in mind that on a Pi Zero, you will need to solder on a pin header (Zero), or the cable<br/>
+		Note that the Model 5, 400 and 500 are not supported, as these do not have composite capability. 
+		Also keep in mind that on a Pi Zero, you will need to solder on a pin header (Zero), or the cable 
 		itself (Zero 2) to your Pi to gain access to the composite output pins/pads.<br/>
 		<b>REMEMBER THAT THIS WILL ONLY WORK WITH A PAL TELEVISION SET.</b><br/>
 		<br/>
-		The first step is to install VBIT2 on your Pi. After booting into Raspberry Pi OS, you will need to<br/>
-		connect to the Internet, using Ethernet, Wi-Fi, or whatever method you use. Then, open a terminal window<br/>
+		The first step is to install VBIT2 on your Pi. After booting into Raspberry Pi OS, you will need to 
+		connect to the Internet, using Ethernet, Wi-Fi, or whatever method you use. Then, open a terminal window 
 		and type in the following:<br/>
 		<code>
 		wget https://raw.githubusercontent.com/peterkvt80/vbit2/master/getvbit2
@@ -66,40 +67,40 @@
 		which will download the install script. Then run it with<br/>
 		<code>bash getvbit2</code><br/>
 		<br/>
-		After installing the programme, the VBIT2 configuration tool will start. Select the first option,<br/>
-		[Ｉ　Ｉｎｓｔａｌｌ ｓｅｒｖｉｃｅ] and install any other services you want to use alongside SatellaText. To<br/>
-		install SatellaText itself, select [１　Ｉｎｓｔａｌｌ ｓｅｒｖｉｃｅ], then select the last option,<br/>
-		[Ｃ　Ｃｕｓｔｏｍ ｓｅｒｖｉｃｅ], and finally, select, [Ｇ　Ｇｉｔ ｒｅｐｏｓｉｔｏｒｙ]. Then, type in the link to<br/>
+		After installing the programme, the VBIT2 configuration tool will start. Select the first option, 
+		[Ｉ　Ｉｎｓｔａｌｌ ｓｅｒｖｉｃｅ] and install any other services you want to use alongside SatellaText. To 
+		install SatellaText itself, select [１　Ｉｎｓｔａｌｌ ｓｅｒｖｉｃｅ], then select the last option, 
+		[Ｃ　Ｃｕｓｔｏｍ ｓｅｒｖｉｃｅ], and finally, select, [Ｇ　Ｇｉｔ ｒｅｐｏｓｉｔｏｒｙ]. Then, type in the link to 
 		the SatellaText repository: <br/>
 		<code>https://github.com/real-kami-kun/SatellaText-Plus.git</code><br/>
 		and set the name of the service to "SatellaText".<br/>
 		<br/>
-		Once back at the main menu, make sure that SatTXT is selected, then exit the config tool.<br/>
-		You will need to restart your Pi, and switch to the composite output. If you get any sort of<br/>
-		anomalies with the video (inverted, no video, buzzing in audio) then your cables are not <br/>
+		Once back at the main menu, make sure that SatTXT is selected, then exit the config tool. 
+		You will need to restart your Pi, and switch to the composite output. If you get any sort of 
+		anomalies with the video (inverted, no video, buzzing in audio) then your cables are not 
 		compatible.<br/>
-		Once rebooted, open the terminal and type<code>vbit-config</code> to start the config tool.<br/>
-		Select [Ｖ　Ｓｔａｒｔ ＶＢＩＴ２]. If everything is correct, you should be able to press the TEXT<br/>
+		Once rebooted, open the terminal and type <code>vbit-config</code> to start the config tool. 
+		Select [Ｖ　Ｓｔａｒｔ ＶＢＩＴ２]. If everything is correct, you should be able to press the TEXT 
 		(<img src="assets/text_btn.svg" alt="Teletext button icon" style="width:1em;height:1em;"/>)
-		button and the SatellaText home page should load up after a moment or two. Now you can start<br/>
-		browsing and exploring what the service has to offer! Enjoy!
+		button and the SatellaText home page should load up after a moment or two. Now you can start 
+		browsing and exploring what the service has to offer! Enjoy!<br/>
 		</p>
 	</section>
 	<section>
 		<h2 class="header" id="Raspberry_Pi_(In-vision)">Raspberry Pi (In-vision)</h2>
 		<p>
-		This section is for how to set up SatellaText on a Raspberry Pi, as an in-vision video feed.<br/>
-		This will allow you to use the service with a Pi on any display, controlled via keyboard.<br/>
+		This section is for how to set up SatellaText on a Raspberry Pi, as an in-vision video feed. 
+		This will allow you to use the service with a Pi on any display, controlled via keyboard. 
 		<b>NOTE:</b> Unlike the TV method, this one will work on any Pi, Model 5 and 400/500 included.<br/>
 		<br/>
-		First, set up VBIT2 as mentioned in the TV method.<br/>
-		You will want to install SatTXT and any other services you want,However, you will want to<br/>
+		First, set up VBIT2 as mentioned in the TV method. 
+		You will want to install SatTXT and any other services you want. However, you will want to 
 		enter the [Ｏ　Ｏｐｔｉｏｎｓ] menu and uncheck "Run VBIT2 automatically at boot", if checked.<br/>
 		<b>DO NOT RUN VBIT2 OR SET IT TO RUN AT BOOT.</b><br/>
 		<br/>
 		Next, it's time to set up VBIT-IV, the in-vision extension to VBIT2. Exit vbit-config and type:<br/>
 		<code>git clone https://github.com/peterkvt80/vbit-iv.git</code><br/>
-		Once the repository is cloned, you'll need to install Python 3 (if not already installed), as<br/>
+		Once the repository is cloned, you'll need to install Python 3 (if not already installed), as 
 		well as some extra packages that are needed, using the follwing commands:<br/>
 		<code>pip3 install screeninfo</code><br/>
 		<code>pip3 install readchar</code><br/>
@@ -110,7 +111,7 @@
 		<code>./vbit-remote</code><br/>
 		This will allow keyboard input to be passed to VBIT. In the first window, run:<br/>
 		<code>./innervision.py</code><br/>
-		to run VBIT-IV. You may have to <kbd>Alt+Tab</kbd> to the second window to get your<br/>
+		to run VBIT-IV. You may have to <kbd>Alt+Tab</kbd> to the second window to get your 
 		keyboard inputs to register. Enjoy!<br/>
 		NOTE: Press <kbd>Ctrl + C</kbd> to leave VBIT-IV.<br/>
 		</p>

@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Gosod | SatellaText</title>
+	<link rel="icon" type="image/svg+xml" href="assets/SatellaText-logo-white.svg"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<meta charset="UTF-8"/>
+	<meta name="description" content="Y Gwasanaeth Teledestun SatellaView+"/>
+	<link rel="stylesheet" href="default.css"/>
+</head>
+<!-- Colours are - Tomato, DodgerBlue, Orange, MediumSeaGreen -->
+<body>
+	<header>
+		<marquee bgcolor="Tomato" style="text-align:center;vertical-align:text-top;">
+			Welcome to SatellaText | Croeso i SatellaText | サテレテクストようこそ | Bienvenue à SatellaText | Bem-vindo ao SatellaText | Bienvenido a SatellaText | Wilkommen bei SatellaText | 欢迎来到 SatellaText | SatellaText 에 오신 것을 환영합니다 |
+		</marquee>
+		<br/>
+		<img src="assets/SatellaText-logo-black.svg" alt="SatellaText Logo" style="float:left;width:75px;height:75px;"/><h1>SatellaText</h1>
+		<p>Y gwasanaeth teledestun o Satellaview+</p>	
+		<hr style="vertical-align:super;"/>
+	</header>
+	<nav>
+		<a href="index.html">Hafan</a><b> | </b><a href="instguid.html">Gosod</a><b> | </b><a href="https://github.com/real-kami-kun/SatellaText-Plus">Cael SatText!</a><b> | </b><a href="https://satellaviewplus.github.io/">Satellaview+</a><br/>
+		Ar gael yn: <a href="instguid.html">English</a> | <a class="active-link" href="instguid-cy.html">Cymraeg</a> | <a href="instguid-ja.html"><ruby>日本語 <rp>(</rp><rt>にほんご</rt><rp>)</rp></ruby></a><br/>
+	</nav>
+	<br/><br/><br/><br/>
+	<section>
+		<h1>Canllaw Gosod SatellaText</h1>
+		<p>
+		Mae'r canllaw hwn wedi'i rannu'n sawl adran, gyda phob un yn ymdrin â dull gwahanol o sefydlu
+		a defnyddio'r gwasanaeth SatellaText. Isod mae tabl cynnwys.
+		</p>
+	</section>
+	<aside>
+	<h3 class="header">Cynnwys</h3>
+	<ul>
+		<li><a href="#Raspberry_Pi_(TV)">Raspberry Pi (Teledu)</a></li>
+		<li><a href="#Raspberry_Pi_(In-vision)">Raspberry Pi (Mewn golwg)</a></li>
+		<li><a href="Windows_(BeebEm)">Windows (BeebEm)</a></li>
+	</ul>
+	</aside>
+	<section>
+		<h2 class="header" id="Raspberry_Pi_(TV)">Raspberry Pi (Teledu)</h2>
+		<p>
+		Mae'r adran hon ar sut i sefydlu SatellaText ar system Raspberry Pi, gan ddefnyddio set deledu 
+		sy'n gallu trin signalau analog. Bydd hyn yn caniatáu ichi ryngweithio â'r gwasanaeth teledestun 
+		efo rheolydd o bell. Bydd angen y canlynol arnoch:
+		</p>
+		<ul>
+			<li>Cyfrifiadur Raspberry Pi Model 1, 2, 3, 4, neu Zero/Zero2</li>
+			<li>Cysylltiad internet</li>
+			<li>Set deledu PAL efo mewnbwn fideo cyfansawdd a galluoedd teledestun</li>
+			<li>Cebl cyfansawdd cydnaws ar gyfer eich Pi</li>
+			<li>Gosod o feddalwedd Raspberry Pi OS Desktop (Buster neu Bullseye)</li>
+		</ul>
+		<p>
+		Sylwch nad yw'r Model 5, 400, a 500 yn cael eu cefnogi, gan nad oes gan y rhain allbwn fideo 
+		cyfansawdd. Cofiwch hefyd, ar Pi Zero, y bydd angen i chi sodro pennawd pin (Zero), neu'r cebl 
+		fideo ei hun (Zero 2) i'ch Pi i gael mynediad at y pinnau/padiau allbwn fideo cyfansawdd. 
+		<b>COFIWCH MAI DIM OND EFO SET DELEDU PAL Y PYDD HYN YN GWEITHIO!</b><br/>
+		<br/>
+		Y cam cyntaf yw gosod VBIT2 ar eich Pi. Ar ôl cychwyn i mewn i system weithredu Raspberry Pi 
+		OS, bydd angen i chi gysylltu â'r Internet, gan ddefnyddio Ethernet, Wi-Fi, neu ba bynnag ddull 
+		rydych chi'n ei ddefnyddio. Wedyn, agorwch ffenestr derfynell a theipiwch y gorchymyn canlynol:
+		<code>
+		wget https://raw.githubusercontent.com/peterkvt80/vbit2/master/getvbit2
+		</code><br/>
+		a fydd yn lawrlwytho'r sgript gosod. Wedyn rhedeg ef efo'r gorchymyn hwn:<br/>
+		<code>bash getvbit2</code><br/>
+		<br/>
+		Ar ôl gosog y rhaglen, bydd yr offeryn ffurfweddu VBIT2 yn cychwyn. Dewiswch yr opsiwn cyntaf, 
+		［１　Ｉｎｓｔａｌｌ　ｓｅｒｖｉｃｅ］, a gosodwch unrhyw wasanaethau eraill rydych chi eisiau eu defnyddio ochr 
+		yn och â SatellaText. I osod SatellaText ei hun, dewiswch ［１　Ｉｎｓｔａｌｌ　ｓｅｒｖｉｃｅ］, yna dewiswch 
+		yr opsiwn olaf, ［Ｃ　Ｃｕｓｔｏｍ　ｓｅｒｖｉｃｅ］, ac yn olaf, dewiswch, ［Ｇ　Ｇｉｔ　ｒｅｐｏｓｉｔｏｒｙ］. Wedyn, 
+		teipiwch y ddolen i'r storfa SatTXT:<br/>
+		<code>https://github.com/real-kami-kun/SatellaText-Plus.git</code><br/>
+		a gosodwch enw'r gwasanaeth i "SatellaText".<br/>
+		<br/>
+		Unwaith yn ôl yn y brif ddewislen, gwnewch yn siŵr bod SatTXT wedi'i ddewis, wedyn, gadael yr 
+		offeryn ffurfweddu. Bydd angen i chi ailgychwyn eich Pi, a newid i'r allbwn fideo cyfansawdd. 
+		Ose byddwch chi'n dod ar draws unrhyw fath o anomaleddau efo'r signal fideo (h.y. fideo gwrthdro 
+		neu ddim fideo, a/neu sŵn yn y signal sain, ac ati), yna nid yw eich ceblau fideo yn gydnaws.<br/>
+		Ar ôl ailgychwyn, agorwch y derfynell a theipiwch <code>vbit-config</code> i gychwyn yr offeryn 
+		ffurfweddu. Dewiswch, ［Ｖ　Ｓｔａｒｔ　ＶＢＩＴ２］. Os yw popeth yn gywir, dylech allu pwyso'r botwn TEXT 
+		(<img src="assets/text_btn.svg" alt="Teletext button icon" style="width:1em;height:1em;"/>), 
+		a dylai tudalen gartre SatellaText lwytho ar ôl eiliad neu ddwy. Rŵan gallwch ddechrau pori ac 
+		archwilio beth sydd gan y swasanaeth i'w gynnig! Mwynhewch!<br/>
+		</p>
+	</section>
+	<section>
+		<h2 class="header" id="Raspberry_Pi_(In-vision)">Raspberry Pi (Mewn golwg)</h2>
+		<p>
+		Mae'r adran hon ar gyfer sut i sefydlu SatellaText ar system Raspberry Pi, fel porthiant fideo 
+		mewn-golwg. Bydd hyn yn caniatáu ichi ddefnyddio'r gwasanaeth efo Pi ar unrhyw arddangosfa, a'i 
+		reoli gyda bysellfwrdd.<br/>
+		<b>NODYN:</b> Yn wahanol i'r dull teledu, bydd yr un hon yn gweithio ar unrhyw Pi, gan gynnwys 
+		y Modelau 5 ac x00.<br/>
+		<br/>
+		Yn gyntaf, sefydlwch VBIT2 fel soniwyd yn y dull teledu.<br/>
+		Byddwch chi eisiau gosod SatTXT ac unrhyw wasanaethau eraill rydych chi eu heisiau. Fodd bynnag, 
+		byddwch chi eisiau mynd i mewn i'r ddewislen ［Ｏ　Ｏｐｔｉｏｎｓ］, a dad-dicio "Run VBIT2 automatically 
+		at boot", os yw wedi'i dicio.<br/>
+		<b>PEIDIWCH Â RHEDEG VBIT2 NEU EI OSOD I REDEG WRTH GYCHWYN!</b><br/>
+		<br/>
+		Nesa, mae'n bryd sefydlu VBIT-IV, yr estyniad mewn-golwg i VBIT2. Gadewch vbit-config a theipiwch:<br/>
+		<code>git clone https://github.com/peterkvt80/vbit-iv.git</code><br/>
+		Unwaith y bydd y storfa wedi'i chlonio, bydd angen i chi sicrhau bod Python 3 wedi'i osod, ac ar 
+		ôl hynny gallwch chi osod rhai pecynnau ychwanegol sydd eu hangen, gan ddefnyddio'r gorchymynion 
+		canlynol:<br/>
+		<code>pip3 install screeninfo</code><br/>
+		<code>pip3 install readchar</code><br/>
+		<code>pip3 install zmq</code><br/>
+		<code>cd vbit-iv</code><br/>
+		<code>sudo cp *.ttf /usr/local/share/fonts</code><br/>
+		Os ydych chi eisiau rheolaeth bysellfwrdd, agorwch ail ffenestr derfynell yn yr un ffolder a 
+		theipiwch:<br/>
+		<code>./vbit-remote</code><br/>
+		Bydd hyn yn caniatáu i fewnbwn bysellfwrdd gael ei basio i VBIT. Yn y ffenestr gyntaf, rhedwch:
+		<code>./innervision.py</code><br/>
+		i redeg VBIT-IV. Efallai y bydd yn rhaid i chi <kbd>Alt+Tab</kbd>io i'r ail ffenestr i gael eich 
+		mewnbynnau bysellfwrdd i gofrestru. Mwynhewch!<br/>
+		NODYN: Pwyswch <kbd>Ctrl + C</kbd> i adael VBIT-IV.
+		</p>
+	</section>
+	<section>
+		<h2 class="header" id="Windows_(BeebEm)">Windows (BeebEm)</h2>
+		<p>
+		Am gyfarwyddiadau, dilynwch <a href="https://zxnet.co.uk/teletext/emulators/">y canllaw hwn</a> (yn Saesneg).
+		</p>
+	</section>
+	<footer>
+		<p id="datetimeget"></p>
+		<script>
+			function GetURLParameter(sParam)
+			{
+				var sPageURL = window.location.search.substring(1);
+				var sURLVariables = sPageURL.split('&');
+				for (var i = 0; i < sURLVariables.length; i++) 
+				{
+					var sParameterName = sURLVariables[i].split('=');
+					if (sParameterName[0] == sParam) 
+					{
+						return sParameterName[1];
+					}
+				}
+			}
+			
+			function getLang() {
+				if (navigator.languages !== undefined) 
+					return navigator.languages; 
+				return navigator.language;
+			}
+			
+			var dataLocale = GetURLParameter('lang');
+			console.log(dataLocale);
+			if (dataLocale == undefined) {
+				let dataLocale = "en"
+			}
+			
+			function formatAMPM() {
+			if (dataLocale == "cy") {
+				var d = new Date(),
+					minutes = d.getMinutes().toString().length == 1 ? '0'+d.getMinutes() : d.getMinutes(),
+					hours = d.getHours().toString().length == 1 ? '0'+d.getHours() : d.getHours(),
+					ampm = (d.getHours() >= 18) ? 'yh' : (12 <= d.getHours() < 18) ? 'yp' : 'yb',
+					months = ['Ionawr','Chwefror','Mawrth','Ebrill','Mai','Mehefin','Gorffennaf','Awst','Medi','Hydref','Tachwedd','Rhagfyr'],
+					days = ['Sul','Llun','Mawrth','Mercher','Iau','Gwener','Sadwrn'];
+			} else {	
+				var d = new Date(),
+					minutes = d.getMinutes().toString().length == 1 ? '0'+d.getMinutes() : d.getMinutes(),
+					hours = d.getHours().toString().length == 1 ? '0'+d.getHours() : d.getHours(),
+					ampm = d.getHours() >= 12 ? 'pm' : 'am',
+					months = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'],
+					days = ['Sun','Mon','Tue','Wed','Thu','Fri','Sat'];
+			}
+			return days[d.getDay()]+' '+months[d.getMonth()]+' '+d.getDate()+' '+d.getFullYear()+' '+hours+':'+minutes+ampm;
+			}
+			document.getElementById("datetimeget").innerHTML = formatAMPM();
+			if (navigator.languages[1] == "cy" || navigator.languages[0] == "cy") {
+				console.log("Welsh locale setting detected. Diwrnod da Cymru!")
+			}
+		</script>
+		<noscript>
+			<hr style="color:tomato;">
+			<b>Oops, something went wrong. Enable JavaScript and reload. If you use NoScript, tell it to trust this page.</b><br/>
+			<i>Ŵps, aeth rhywbeth i'r le. Galluogi JavaScript ac ail-lwytho. Os dych chi'n defnyddio NoScript, dywedwch wrtho i ymddiried yn y dudalen hon.</i><br/>
+			申し訳ございません。　問題が発生しました。
+			ＪａｖａＳｃｒｉｐｔ　を有効にしてリロードしてください。　ＮｏＳｃｒｉｐｔ　を使用する場合は、
+			このページを信頼するように指示してください。
+		</noscript>
+	</footer>
+</body>
+</html>

@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>インストールガイド｜ＳａｔｅｌｌａＴｅｘｔ</title>
+	<link rel="icon" type="image/svg+xml" href="assets/SatellaText-logo-white.svg"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<meta charset="UTF-8"/>
+	<meta name="description" content="SatellaView+'s Teletext Service"/>
+	<link rel="stylesheet" href="default.css"/>
+</head>
+<!-- Colours are - Tomato, DodgerBlue, Orange, MediumSeaGreen -->
+<body>
+	<header>
+		<marquee bgcolor="Tomato" style="text-align:center;vertical-align:text-top;">
+			Welcome to SatellaText | Croeso i SatellaText | サテレテクストようこそ | Bienvenue à SatellaText | Bem-vindo ao SatellaText | Bienvenido a SatellaText | Wilkommen bei SatellaText | 欢迎来到 SatellaText | SatellaText 에 오신 것을 환영합니다 |
+		</marquee>
+		<br/>
+		<img src="assets/SatellaText-logo-black.svg" alt="SatellaText Logo" style="float:left;width:75px;height:75px;"/><h1>SatellaText</h1>
+		<p>The teletext service from Satellaview+</p>	
+		<hr style="vertical-align:super;"/>
+	</header>
+	<nav>
+		<a href="index-ja.html">ホームページ</a><b> | </b><a href="instguid-ja.html">インストール</a><b> | </b><a href="https://github.com/real-kami-kun/SatellaText-Plus">ＳａｔＴＸＴを<ruby>入手<rp>(</rp><rt>にゅうしゅ</rt><rp>)</rp></ruby>！</a><b> | </b><a href="https://satellaviewplus.github.io/">Ｓａｔｅｌｌａｖｉｅｗ＋</a><br/>
+		<ruby>対応言語 <rp>(</rp><rt>たいおうげんご</rt><rp>)</rp></ruby><a href="instguid.html">English</a> | <a href="instguid-cy.html">Cymraeg</a> | <a class="active-link" href="instguid-ja.html"><ruby>日本語 <rp>(</rp><rt>にほんご</rt><rp>)</rp></ruby></a><br/>
+	</nav>
+	<br/><br/><br/><br/>
+	<section>
+		<h1>ＳａｔｅｌｌａＴｅｘｔ　インストールガイド</h1>
+		<p>
+		このガイドは<ruby>複数<rp>(</rp><rt>ふくすう</rt><rp>)</rp></ruby>のセクションに<ruby>分<rp>(</rp><rt>わ</rt><rp>)</rp></ruby>かれており、<ruby>各<rp>(</rp><rt>かく</rt><rp>)</rp></ruby>セクションでは
+		ＳａｔＴＸＴサービスの<ruby>設定<rp>(</rp><rt>せってい</rt><rp>)</rp></ruby>と<ruby>使用方法<rp>(</rp><rt>しようほうほう</rt><rp>)</rp></ruby>について<ruby>詳<rp>(</rp><rt>くわ</rt><rp>)</rp></ruby>しく<ruby>説明<rp>(</rp><rt>せつめい</rt><rp>)</rp></ruby>しています。
+		<ruby>以下<rp>(</rp><rt>いか</rt><rp>)</rp></ruby>は<ruby>目次<rp>(</rp><rt>もくじ</rt><rp>)</rp></ruby>です。<br/>
+		</p>
+	</section>
+	<aside>
+	<h3 class="header"><ruby>目次<rp>(</rp><rt>もくじ</rt><rp>)</rp></ruby></h3>
+	<ul>
+		<li><a href="#Raspberry_Pi_(TV)">Ｒａｓｐｂｅｒｒｙ　Ｐｉ　（テレビ）</a></li>
+		<li><a href="#Raspberry_Pi_(In-vision)">Ｒａｓｐｂｅｒｒｙ　Ｐｉ　（<ruby>視界内<rp>(</rp><rt>しかいない</rt><rp>)</rp></ruby>）</a></li>
+		<li><a href="Windows_(BeebEm)">Ｗｉｎｄｏｗｓ　（ＢｅｅｂＥｍ）</a></li>
+	</ul>
+	</aside>
+	<section>
+		<h2 class="header" id="Raspberry_Pi_(TV)">Ｒａｓｐｂｅｒｒｙ　Ｐｉ　（テレビ）</h2>
+		<p>
+		このセクションでは、アナログＰＡＬテレビを<ruby>使用<rp>(</rp><rt>しよう</rt><rp>)</rp></ruby>して、Ｒａｓｐｂｅｒｒｙ　Ｐｉコンピューターで「サテラテキスト」を<ruby>設定<rp>(</rp><rt>せってい</rt><rp>)</rp></ruby>する
+		<ruby>方法<rp>(</rp><rt>ほうほう</rt><rp>)</rp></ruby>について<ruby>説明<rp>(</rp><rt>せつめい</rt><rp>)</rp></ruby>します。これにゟ、リモコンでテレテキストサービスを
+		<ruby>操作<rp>(</rp><rt>そうさ</rt><rp>)</rp></ruby>できるようになります。　<ruby>必要<rp>(</rp><rt>ひつよう</rt><rp>)</rp></ruby>なもの：<br/>
+		</p>
+		<ul>
+			<li>Ｒａｓｐｂｅｒｒｙ　Ｐｉモデル１、２、３、４、またはＺｅｒｏ／Ｚｅｒｏ２</li>
+			<li>インターネット<ruby>接続<rp>(</rp><rt>せつぞく</rt><rp>)</rp></ruby></li>
+			<li>コンポジットビデオ<ruby>入力<rp>(</rp><rt>にゅうりょく</rt><rp>)</rp></ruby>とテレテクスト<ruby>機能<rp>(</rp><rt>きのう</rt><rp>)</rp></ruby>を<ruby>備<rp>(</rp><rt>そな</rt><rp>)</rp></ruby>えたＰＡＬテレビ</li>
+			<li>ＲＰｉと<ruby>互換性<rp>(</rp><rt>ごかんせい</rt><rp>)</rp></ruby>のあるコンポジットビデオケーブル</li>
+			<li>Ｒａｓｐｂｅｒｒｙ　Ｐｉ　ＯＳ　（ＢｕｓｔｅｒまたはＢｕｌｌｓｅｙｅ）　のインストール</li>
+		</ul>
+		<p>
+		モデル５、４００、５００はコンポジットビデオ<ruby>出力<rp>(</rp><rt>しゅつりょく</rt><rp>)</rp></ruby>に<ruby>対応<rp>(</rp><rt>たいおう</rt><rp>)</rp></ruby>していないため、
+		サポートされていませんのでご<ruby>注意<rp>(</rp><rt>ちゅうい</rt><rp>)</rp></ruby>ください。また、Ｐｉ　Ｚｅｒｏでは、コンポジットビデオ<ruby>出力<rp>(</rp><rt>しゅつりょく</rt><rp>)</rp></ruby>ピン／パッド
+		にアクセスすつには、ピンヘッダー（Ｚｅｒｏの<ruby>場合<rp>(</rp><rt>ばあい</rt><rp>)</rp></ruby>）またはけーぶる<ruby>自体<rp>(</rp><rt>じたい</rt><rp>)</rp></ruby>（Ｚｅｒｏ２の<ruby>場合<rp>(</rp><rt>ばあい</rt><rp>)</rp></ruby>）
+		をＲＰｉに<ruby>半田付<rp>(</rp><rt>はんだつ</rt><rp>)</rp></ruby>けする<ruby>必要<rp>(</rp><rt>ひつよう</rt><rp>)</rp></ruby>があります。<br/>
+		<b>これはＰＡＬテレビでのみ<ruby>機能<rp>(</rp><rt>きのう</rt><rp>)</rp></ruby>することに<ruby>注意<rp>(</rp><rt>ちゅうい</rt><rp>)</rp></ruby>してください！</b><br/>
+		<br/>
+		<ruby>最初<rp>(</rp><rt>さいしょ</rt><rp>)</rp></ruby>のステップは、ＲＰｉにＶＢＩＴ２をインストールすることです。Ｒａｓｐｂｅｒｒｙ　Ｐｉ　ＯＳを<ruby>起動<rp>(</rp><rt>きどう</rt><rp>)</rp></ruby>したら、
+		イーサネット、Ｗｉ－Ｆｉなど、を<ruby>好<rp>(</rp><rt>す</rt><rp>)</rp></ruby>きな<ruby>方法<rp>(</rp><rt>ほうほう</rt><rp>)</rp></ruby>でインターネットに<ruby>接続<rp>(</rp><rt>せつぞく</rt><rp>)</rp></ruby>する
+		<ruby>必要<rp>(</rp><rt>ひつよう</rt><rp>)</rp></ruby>があります。ターミナルウィンドウを<ruby>開<rp>(</rp><rt>ひら</rt><rp>)</rp></ruby>き、<ruby>以下<rp>(</rp><rt>いか</rt><rp>)</rp></ruby>の
+		コマンドを<ruby>入力<rp>(</rp><rt>にゅうりょく</rt><rp>)</rp></ruby>します。<br/>
+		<code>
+		wget https://raw.githubusercontent.com/peterkvt80/vbit2/master/getvbit2
+		</code><br/>
+		これでインストールスクリプトがダウンロードされます。<br/>
+		<code>bash getvbit2</code><br/>
+		で<ruby>実行<rp>(</rp><rt>じっこう</rt><rp>)</rp></ruby>してください。<br/>
+		<br/>
+		プログラムをインストールすると、ＶＢＩＴ２<ruby>設定<rp>(</rp><rt>せってい</rt><rp>)</rp></ruby>ツールが<ruby>起動<rp>(</rp><rt>きどう</rt><rp>)</rp></ruby>します。
+		<ruby>最初<rp>(</rp><rt>さいしょ</rt><rp>)</rp></ruby>のオプション［１　<ruby>Ｉｎｓｔａｌｌ　ｓｅｒｖｉｃｅ<rp>(</rp><rt>サービスをインストールする</rt><rp>)</rp></ruby>］を
+		<ruby>選択<rp>(</rp><rt>せんたく</rt><rp>)</rp></ruby>し、ＳａｔＴＸＴと<ruby>併用<rp>(</rp><rt>へいよう</rt><rp>)</rp></ruby>したいその<ruby>他<rp>(</rp><rt>ほか</rt><rp>)</rp></ruby>のサービスをインストールしてください。
+		ＳａｔＴＸＴ<ruby>自体<rp>(</rp><rt>じたい</rt><rp>)</rp></ruby>をインストールするには、［１　<ruby>Ｉｎｓｔａｌｌ　ｓｅｒｖｉｃｅ<rp>(</rp><rt>サービスをインストールする</rt><rp>)</rp></ruby>］を<ruby>選択<rp>(</rp><rt>せんたく</rt><rp>)</rp></ruby>し、<ruby>次<rp>(</rp><rt>つぎ</rt><rp>)</rp></ruby>に
+		<ruby>最後<rp>(</rp><rt>さいご</rt><rp>)</rp></ruby>のオプション　［Ｃ　<ruby>Ｃｕｓｔｏｍ　ｓｅｒｖｉｃｅ<rp>(</rp><rt>カスタムサービス</rt><rp>)</rp></ruby>］を<ruby>選択<rp>(</rp><rt>せんたく</rt><rp>)</rp></ruby>し、<ruby>最後<rp>(</rp><rt>さいご</rt><rp>)</rp></ruby>に
+		［Ｇ　Ｇｉｔ　<ruby>ｒｅｐｏｓｉｔｏｒｙ<rp>(</rp><rt>レポジトリ</rt><rp>)</rp></ruby>］を<ruby>選択<rp>(</rp><rt>せんたく</rt><rp>)</rp></ruby>します。<ruby>次<rp>(</rp><rt>つぎ</rt><rp>)</rp></ruby>に、ＳａｔＴＸＴリポジトリへのリンク：<br/>
+		<code>https://github.com/real-kami-kun/SatellaText-Plus.git</code><br/>
+		を<ruby>入力<rp>(</rp><rt>にゅうりょく</rt><rp>)</rp></ruby><br/>し、サービス<ruby>名<rp>(</rp><rt>めい</rt><rp>)</rp></ruby>を「ＳａｔｅｌｌａＴｅｘｔ」に<ruby>設定<rp>(</rp><rt>せってい</rt><rp>)</rp></ruby>してください。<br/>
+		<br/>
+		メインメニューに<ruby>戻<rp>(</rp><rt>もど</rt><rp>)</rp></ruby>ったら、ＳａｔＴＸＴが<ruby>選択<rp>(</rp><rt>せんたく</rt><rp>)</rp></ruby>されていることを<ruby>確認<rp>(</rp><rt>かくにん</rt><rp>)</rp></ruby>し、
+		<ruby>設定<rp>(</rp><rt>せってい</rt><rp>)</rp></ruby>ツールを<ruby>終了<rp>(</rp><rt>しゅうりょう</rt><rp>)</rp></ruby>してください。ＲＰｉを<ruby>再起動<rp>(</rp><rt>さいきどう</rt><rp>)</rp></ruby>し、
+		コンポジットビデオ<ruby>出力<rp>(</rp><rt>しゅつりょく</rt><rp>)</rp></ruby>に<ruby>切<rp>(</rp><rt>き</rt><rp>)</rp></ruby>り<ruby>替<rp>(</rp><rt>か</rt><rp>)</rp></ruby>える<ruby>必要<rp>(</rp><rt>ひつよう</rt><rp>)</rp></ruby>
+		があります。ビデオ<ruby>信号<rp>(</rp><rt>しんごう</rt><rp>)</rp></ruby>に<ruby>何<rp>(</rp><rt>なん</rt><rp>)</rp></ruby>らかの<ruby>異常<rp>(</rp><rt>いじょう</rt><rp>)</rp></ruby>　（<ruby>映像<rp>(</rp><rt>えいぞう</rt><rp>)</rp></ruby>が
+		<ruby>反転<rp>(</rp><rt>はんてん</rt><rp>)</rp></ruby>する、<ruby>映像<rp>(</rp><rt>えいぞう</rt><rp>)</rp></ruby>が<ruby>映<rp>(</rp><rt>うつ</rt><rp>)</rp></ruby>らない、<ruby>音声<rp>(</rp><rt>おんせい</rt><rp>)</rp></ruby>に
+		ノイズが<ruby>入<rp>(</rp><rt>はい</rt><rp>)</rp></ruby>るなど）　が<ruby>発生<rp>(</rp><rt>はっせい</rt><rp>)</rp></ruby>した<ruby>場合<rp>(</rp><rt>ばあい</rt><rp>)</rp></ruby>は、ケーブルに<ruby>互換性<rp>(</rp><rt>ごかんせい</rt><rp>)</rp></ruby>
+		がありません。<br/>
+		<ruby>再起動<rp>(</rp><rt>さいきどう</rt><rp>)</rp></ruby>したら、ターミナルを<ruby>開<rp>(</rp><rt>ひら</rt><rp>)</rp></ruby>き、　<code>vbit-config</code>　と<ruby>入力<rp>(</rp><rt>にゅうりょく</rt><rp>)</rp></ruby>して<ruby>設定<rp>(</rp><rt>せってい</rt><rp>)</rp></ruby>
+		ツールを<ruby>起動<rp>(</rp><rt>きどう</rt><rp>)</rp></ruby>します。　［Ｖ　Ｓｔａｒｔ　ＶＢＩＴ２］　を<ruby>選択<rp>(</rp><rt>せんたく</rt><rp>)</rp></ruby>してください。すべて<ruby>正<rp>(</rp><rt>ただ</rt><rp>)</rp></ruby>しく<ruby>設定<rp>(</rp><rt>せってい</rt><rp>)</rp></ruby>
+		されていれば、
+		ＴＥＸＴ(<img src="assets/text_btn.svg" alt="Teletext button icon" style="width:1em;height:1em;"/>)　ボタンを<ruby>押<rp>(</rp><rt>お</rt><rp>)</rp></ruby>すと、しばらくするとＳａｔＴＸＴのホームページが
+		<ruby>読<rp>(</rp><rt>よ</rt><rp>)</rp></ruby>み<ruby>込<rp>(</rp><rt>こ</rt><rp>)</rp></ruby>れます。これで、サービスの<ruby>内容<rp>(</rp><rt>ないよう</rt><rp>)</rp></ruby>を<ruby>閲覧<rp>(</rp><rt>えつらん</rt><rp>)</rp></ruby>して
+		<ruby>探索<rp>(</rp><rt>たんさく</rt><rp>)</rp></ruby>し<ruby>始<rp>(</rp><rt>あじ</rt><rp>)</rp></ruby>まることができます。<br/>
+		お<ruby>楽<rp>(</rp><rt>たの</rt><rp>)</rp></ruby>しみください！<br/>
+		</p>
+	</section>
+	<section>
+		<h2 class="header" id="Raspberry_Pi_(In-vision)">Ｒａｓｐｂｅｒｒｙ　Ｐｉ　（<ruby>視界内<rp>(</rp><rt>しかいない</rt><rp>)</rp></ruby>）</h2>
+		<p>
+		このセクションでは、Ｒａｓｐｂｅｒｒｙ　ＰｉでＳａｔＴＸＴをインビジョンビデオフィードとして<ruby>設定<rp>(</rp><rt>せってい</rt><rp>)</rp></ruby>する<ruby>方法<rp>(</rp><rt>ほうほう</rt><rp>)</rp></ruby>について
+		<ruby>説明<rp>(</rp><rt>せつめい</rt><rp>)</rp></ruby>します。これにゟ、キーボードで<ruby>操作<rp>(</rp><rt>そうさ</rt><rp>)</rp></ruby>しながら、ＲＰｉを<ruby>任意<rp>(</rp><rt>にんい</rt><rp>)</rp></ruby>の
+		ディスプレイに<ruby>接続<rp>(</rp><rt>せつぞく</rt><rp>)</rp></ruby>してサービスを<ruby>利用<rp>(</rp><rt>りよう</rt><rp>)</rp></ruby>できるようになります。<br/>
+		<b><ruby>注<rp>(</rp><rt>ちゅう</rt><rp>)</rp></ruby>：</b> テレビ<ruby>方式<rp>(</rp><rt>ほうしき</rt><rp>)</rp></ruby>とは<ruby>異<rp>(</rp><rt>こと</rt><rp>)</rp></ruby>なり、この
+		<ruby>方法<rp>(</rp><rt>ほうほう</rt><rp>)</rp></ruby>はモデル　５　および　４００／５００　を<ruby>含<rp>(</rp><rt>ふく</rt><rp>)</rp></ruby>む
+		すべてのＲＰｉで<ruby>機能<rp>(</rp><rt>きのう</rt><rp>)</rp></ruby>します。<br/>
+		<br/>
+		まず、テレビの<ruby>方法<rp>(</rp><rt>ほうほう</rt><rp>)</rp></ruby>で<ruby>説明<rp>(</rp><rt>せつめい</rt><rp>)</rp></ruby>したようにＶＢＩＴ２を<ruby>設定<rp>(</rp><rt>せってい</rt><rp>)</rp></ruby>します。
+		ＳａｔＴＸＴやその<ruby>他<rp>(</rp><rt>ほか</rt><rp>)</rp></ruby>の<ruby>必要<rp>(</rp><rt>ひつよう</rt><rp>)</rp></ruby>なサービスをインストールする<ruby>必要<rp>(</rp><rt>ひつよう</rt><rp>)</rp></ruby>があります。
+		ただし、［Ｏ　Ｏｐｔｉｏｎｓ］メニューに<ruby>入<rp>(</rp><rt>はい</rt><rp>)</rp></ruby>り、　「Ｒｕｎ　ＶＢＩＴ２　ａｕｔｏｍａｔｉｃａｌｌｙ　ａｔ　ｂｏｏｔ」　にチェックが<ruby>入<rp>(</rp><rt>はい</rt><rp>)</rp></ruby>っている
+		<ruby>場合<rp>(</rp><rt>ばあい</rt><rp>)</rp></ruby>はチェックを<ruby>外<rp>(</rp><rt>はず</rt><rp>)</rp></ruby>してください。<br/>
+		<b>ＶＢＩＴ２を<ruby>実行<rp>(</rp><rt>実行</rt><rp>)</rp></ruby>しないでください。　また、<ruby>起動時<rp>(</rp><rt>きどうじ</rt><rp>)</rp></ruby>に<ruby>実行<rp>(</rp><rt>じっこう</rt><rp>)</rp></ruby>するように<ruby>設定<rp>(</rp><rt>せってい</rt><rp>)</rp></ruby>しないでください。</b><br/>
+		<br/>
+		<ruby>次<rp>(</rp><rt>つぎ</rt><rp>)</rp></ruby>に、ＶＢＩＴ２のビジョン<ruby>内<rp>(</rp><rt>ない</rt><rp>)</rp></ruby><ruby>拡張<rp>(</rp><rt>かくちょう</rt><rp>)</rp></ruby>であるＶＢＩＴ－ＩＶを
+		<ruby>設定<rp>(</rp><rt>せってい</rt><rp>)</rp></ruby>します。vbit-config　を<ruby>終了<rp>(</rp><rt>しゅうりょう</rt><rp>)</rp></ruby>し、<br/>
+		<code>git clone https://github.com/peterkvt80/vbit-iv.git</code><br/>
+		と<ruby>入力<rp>(</rp><rt>にゅうりょく</rt><rp>)</rp></ruby>します。<br/>
+		リポジトリのクローンを<ruby>作成<rp>(</rp><rt>さくせい</rt><rp>)</rp></ruby>したら、Ｐｙｔｈｏｎ　３　（まだインストールされていない<ruby>場合<rp>(</rp><rt>ばあい</rt><rp>)</rp></ruby>）
+		をインストールし、<ruby>次<rp>(</rp><rt>じ</rt><rp>)</rp></ruby>のコマンドを<ruby>使用<rp>(</rp><rt>しよう</rt><rp>)</rp></ruby>して<ruby>必要<rp>(</rp><rt>ひつよう</rt><rp>)</rp></ruby>な
+		モジュールパッケージをインストールする<ruby>必要<rp>(</rp><rt>ひつよう</rt><rp>)</rp></ruby>があります。<br/>
+		<code>pip3 install screeninfo</code><br/>
+		<code>pip3 install readchar</code><br/>
+		<code>pip3 install zmq</code><br/>
+		<code>cd vbit-iv</code><br/>
+		<code>sudo cp *.ttf /usr/local/share/fonts</code><br/>
+		キーボード<ruby>制御<rp>(</rp><rt>せいぎょ</rt><rp>)</rp></ruby>が<ruby>必要<rp>(</rp><rt>ひつよう</rt><rp>)</rp></ruby>な<ruby>場合<rp>(</rp><rt>ばあい</rt><rp>)</rp></ruby>は、
+		<ruby>同<rp>(</rp><rt>おな</rt><rp>)</rp></ruby>じフォルダーで<ruby>二番目<rp>(</rp><rt>にばんめ</rt><rp>)</rp></ruby>のターミナルウィンドウを<ruby>開<rp>(</rp><rt>ひら</rt><rp>)</rp></ruby>き、<br/>
+		<code>./vbit-remote</code><br/>
+		と<ruby>入力<rp>(</rp><rt>にゅうりょく</rt><rp>)</rp></ruby>します。
+		これにゟ、キーボード<ruby>入力<rp>(</rp><rt>にゅうりょく</rt><rp>)</rp></ruby>がＶＢＩＴに<ruby>渡<rp>(</rp><rt>わた</rt><rp>)</rp></ruby>されるようになります。
+		<ruby>最初<rp>(</rp><rt>さいしょ</rt><rp>)</rp></ruby>のウィンドウで<br/>
+		<code>./innervision.py</code><br/>
+		と<ruby>入力<rp>(</rp><rt>にゅうりょく</rt><rp>)</rp></ruby>してＶＢＩＴ－ＩＶを<ruby>起動<rp>(</rp><rt>きどう</rt><rp>)</rp></ruby>します。キーボード<ruby>入力<rp>(</rp><rt>にゅうりょく</rt><rp>)</rp></ruby>
+		を<ruby>反映<rp>(</rp><rt>はんえい</rt><rp>)</rp></ruby>させるには、<kbd>Alt+Tab</kbd>キーを<ruby>押<rp>(</rp><rt>お</rt><rp>)</rp></ruby>して<ruby>二番目<rp>(</rp><rt>にばんめ</rt><rp>)</rp></ruby>
+		のウィンドウに<ruby>移動<rp>(</rp><rt>いどう</rt><rp>)</rp></ruby>する<ruby>必要<rp>(</rp><rt>ひつよう</rt><rp>)</rp></ruby>がある<ruby>場合<rp>(</rp><rt>ばあい</rt><rp>)</rp></ruby>があります。<br/>
+		どうぞを<ruby>楽<rp>(</rp><rt>たの</rt><rp>)</rp></ruby>しみください！<br/>
+		<ruby>注<rp>(</rp><rt>ちゅう</rt><rp>)</rp></ruby>：ＶＢＩＴ－ＩＶを<ruby>終了<rp>(</rp><rt>しゅうりょう</rt><rp>)</rp></ruby>するには、<kbd>Ctrl+C</kbd>を<ruby>押<rp>(</rp><rt>お</rt><rp>)</rp></ruby>します。<br/>
+		</p>
+	</section>
+	<section>
+		<h2 class="header" id="Windows_(BeebEm)">Ｗｉｎｄｏｗｓ　（ＢｅｅｂＥｍ）</h2>
+		<p>
+		<ruby>手順<rp>(</rp><rt>てじゅん</rt><rp>)</rp></ruby>については、<a href="https://zxnet.co.uk/teletext/emulators/">このガイド</a>（<ruby>英語<rp>(</rp><rt>えいご</rt><rp>)</rp></ruby>）に<ruby>従<rp>(</rp><rt>したが</rt><rp>)</rp></ruby>ってください。<br/>
+		</p>
+	</section>
+	<footer>
+		<p id="datetimeget"></p>
+		<script>
+			function GetURLParameter(sParam)
+			{
+				var sPageURL = window.location.search.substring(1);
+				var sURLVariables = sPageURL.split('&');
+				for (var i = 0; i < sURLVariables.length; i++) 
+				{
+					var sParameterName = sURLVariables[i].split('=');
+					if (sParameterName[0] == sParam) 
+					{
+						return sParameterName[1];
+					}
+				}
+			}
+			
+			function getLang() {
+				if (navigator.languages !== undefined) 
+					return navigator.languages; 
+				return navigator.language;
+			}
+			
+			var dataLocale = GetURLParameter('lang');
+			console.log(dataLocale);
+			if (dataLocale == undefined) {
+				let dataLocale = "en"
+			}
+			
+			function formatAMPM() {
+			if (dataLocale == "cy") {
+				var d = new Date(),
+					minutes = d.getMinutes().toString().length == 1 ? '0'+d.getMinutes() : d.getMinutes(),
+					hours = d.getHours().toString().length == 1 ? '0'+d.getHours() : d.getHours(),
+					ampm = (d.getHours() >= 18) ? 'yh' : (12 <= d.getHours() < 18) ? 'yp' : 'yb',
+					months = ['Ionawr','Chwefror','Mawrth','Ebrill','Mai','Mehefin','Gorffennaf','Awst','Medi','Hydref','Tachwedd','Rhagfyr'],
+					days = ['Sul','Llun','Mawrth','Mercher','Iau','Gwener','Sadwrn'];
+			} else {	
+				var d = new Date(),
+					minutes = d.getMinutes().toString().length == 1 ? '0'+d.getMinutes() : d.getMinutes(),
+					hours = d.getHours().toString().length == 1 ? '0'+d.getHours() : d.getHours(),
+					ampm = d.getHours() >= 12 ? 'pm' : 'am',
+					months = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'],
+					days = ['Sun','Mon','Tue','Wed','Thu','Fri','Sat'];
+			}
+			return days[d.getDay()]+' '+months[d.getMonth()]+' '+d.getDate()+' '+d.getFullYear()+' '+hours+':'+minutes+ampm;
+			}
+			document.getElementById("datetimeget").innerHTML = formatAMPM();
+			if (navigator.languages[1] == "cy" || navigator.languages[0] == "cy") {
+				console.log("Welsh locale setting detected. Diwrnod da Cymru!")
+			}
+		</script>
+		<noscript>
+			<hr style="color:tomato;">
+			<b>Oops, something went wrong. Enable JavaScript and reload. If you use NoScript, tell it to trust this page.</b><br/>
+			<i>Ŵps, aeth rhywbeth i'r le. Galluogi JavaScript ac ail-lwytho. Os dych chi'n defnyddio NoScript, dywedwch wrtho i ymddiried yn y dudalen hon.</i><br/>
+			申し訳ございません。　問題が発生しました。
+			ＪａｖａＳｃｒｉｐｔ　を有効にしてリロードしてください。　ＮｏＳｃｒｉｐｔ　を使用する場合は、
+			このページを信頼するように指示してください。
+		</noscript>
+	</footer>
+</body>
+</html>
